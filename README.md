@@ -14,6 +14,18 @@ pnpm dev
 bun dev
 ```
 
+##ENV CONFIG FILE
+
+NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=
+CLERK_SECRET_KEY=
+DATABASE_URL="postgresql://ЭНД НЭВТРЭХ НЭР:ЭНД НУУЦ ҮГ@ЭНД ЗАМ"
+UPLOADTHING_TOKEN=
+NEXT_PUBLIC_BACKEND_URL=http://localhost:8080
+NEXT_PUBLIC_REDIS_HOST=127.0.0.1
+NEXT_PUBLIC_REDIS_PORT=6379
+MONGODB_URI=
+NEXT_PUBLIC_API_URL=http://localhost:3000
+
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
