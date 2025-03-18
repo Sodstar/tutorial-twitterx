@@ -7,8 +7,8 @@
   "chunks": [
     "static/chunks/[root of the server]__8ebb6d._.css",
     "static/chunks/node_modules_ec2820._.js",
-    "static/chunks/src_9945cc._.js",
-    "static/chunks/node_modules_@clerk_nextjs_dist_esm_app-router_c6d500._.js"
+    "static/chunks/src_4c7a6f._.js",
+    "static/chunks/node_modules_@clerk_nextjs_dist_esm_app-router_0fbd10._.js"
   ],
   "source": "dynamic"
 });

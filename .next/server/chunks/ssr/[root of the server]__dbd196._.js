@@ -244,6 +244,11 @@ const ProductSchema = new __TURBOPACK__imported__module__$5b$externals$5d2f$mong
         type: Number,
         required: true,
         default: 0
+    },
+    category: {
+        type: __TURBOPACK__imported__module__$5b$externals$5d2f$mongoose__$5b$external$5d$__$28$mongoose$2c$__cjs$29$__["default"].Schema.Types.ObjectId,
+        ref: "Category",
+        required: true
     }
 }, {
     timestamps: true

@@ -2,6 +2,6 @@
   "version": 3,
   "sources": [],
   "sections": [
-    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file:///Users/sodstar/development/web/frontend/x/src/app/products/layout.tsx"],"sourcesContent":["// src/app/products/details/layout.tsx\nimport React from 'react';\n\nconst ProductDetailsLayout = ({ children }: { children: React.ReactNode }) => {\n  return (\n    <div>\n      <main>\n        {children}\n      </main>\n    </div>\n  );\n};\n\nexport default ProductDetailsLayout;"],"names":[],"mappings":"AAAA,sCAAsC;;;;;;AAGtC,MAAM,uBAAuB,CAAC,EAAE,QAAQ,EAAiC;IACvE,qBACE,8OAAC;kBACC,cAAA,8OAAC;sBACE;;;;;;;;;;;AAIT;uCAEe"}},
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file:///Users/sodstar/development/web/frontend/twitterx/src/app/products/layout.tsx"],"sourcesContent":["// src/app/products/details/layout.tsx\nimport React from 'react';\n\nconst ProductDetailsLayout = ({ children }: { children: React.ReactNode }) => {\n  return (\n    <div>\n      <main>\n        {children}\n      </main>\n    </div>\n  );\n};\n\nexport default ProductDetailsLayout;"],"names":[],"mappings":"AAAA,sCAAsC;;;;;;AAGtC,MAAM,uBAAuB,CAAC,EAAE,QAAQ,EAAiC;IACvE,qBACE,8OAAC;kBACC,cAAA,8OAAC;sBACE;;;;;;;;;;;AAIT;uCAEe"}},
     {"offset": {"line": 29, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
 }

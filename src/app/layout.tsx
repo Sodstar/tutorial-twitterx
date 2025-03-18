@@ -12,6 +12,8 @@ import {
   SignedOut,
   UserButton,
 } from "@clerk/nextjs";
+import ProductFilter from "@/components/ProductFilter";
+import ProductCategories from "@/components/ProductCategories";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -53,6 +55,8 @@ export default function RootLayout({
                   <div className="grid grid-cols-1 lg:grid-cols-12 gap-6">
                     <div className="hidden lg:block lg:col-span-3">
                       <Sidebar />
+                      <ProductCategories/>
+                      <ProductFilter />
                     </div>
                     <div className="lg:col-span-9">{children}</div>
                   </div>
