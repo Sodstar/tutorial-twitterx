@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file:///Users/sodstar/development/web/frontend/x/src/components/CreatePost.tsx"],"sourcesContent":["\"use client\";\nimport { useUser } from \"@clerk/nextjs\";\nimport React, { useState, useEffect, useRef } from \"react\";\n\nfunction CreatePost() {\n  const { user } = useUser();\n  const [content, setContent] = useState(\"\");\n  const [image, setImage] = useState(\"\");\n  const [isPosting, setIsPosting] = useState(false);\n  const [showImageUpload, setShowImageUpload] = useState(false);\n  if (!user) return null;\n\n  return <div>CreatePost</div>;\n}\n\nexport default CreatePost;\n"],"names":[],"mappings":";;;;AAEA;AADA;;;AADA;;;AAIA,SAAS;;IACP,MAAM,EAAE,IAAI,EAAE,GAAG,CAAA,GAAA,+JAAA,CAAA,UAAO,AAAD;IACvB,MAAM,CAAC,SAAS,WAAW,GAAG,CAAA,GAAA,6JAAA,CAAA,WAAQ,AAAD,EAAE;IACvC,MAAM,CAAC,OAAO,SAAS,GAAG,CAAA,GAAA,6JAAA,CAAA,WAAQ,AAAD,EAAE;IACnC,MAAM,CAAC,WAAW,aAAa,GAAG,CAAA,GAAA,6JAAA,CAAA,WAAQ,AAAD,EAAE;IAC3C,MAAM,CAAC,iBAAiB,mBAAmB,GAAG,CAAA,GAAA,6JAAA,CAAA,WAAQ,AAAD,EAAE;IACvD,IAAI,CAAC,MAAM,OAAO;IAElB,qBAAO,6LAAC;kBAAI;;;;;;AACd;GATS;;QACU,+JAAA,CAAA,UAAO;;;KADjB;uCAWM"}},
-    {"offset": {"line": 46, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
-}
