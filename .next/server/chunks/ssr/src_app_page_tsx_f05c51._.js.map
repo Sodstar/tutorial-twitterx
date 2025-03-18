@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file:///Users/sodstar/development/web/frontend/x/src/app/page.tsx"],"sourcesContent":["import { SignedOut,SignInButton,SignedIn,UserButton } from \"@clerk/nextjs\";\nimport Image from \"next/image\";\n\nexport default function Home() {\n  return (\n    <div> <SignedOut>\n    <SignInButton mode=\"modal\"/>\n  </SignedOut>\n  <SignedIn>\n    <UserButton />\n  </SignedIn></div>\n  );\n}\n"],"names":[],"mappings":";;;;AAAA;AAAA;;;AAGe,SAAS;IACtB,qBACE,8OAAC;;YAAI;0BAAC,8OAAC,yKAAA,CAAA,YAAS;0BAChB,cAAA,8OAAC,sLAAA,CAAA,eAAY;oBAAC,MAAK;;;;;;;;;;;0BAErB,8OAAC,yKAAA,CAAA,WAAQ;0BACP,cAAA,8OAAC,sLAAA,CAAA,aAAU;;;;;;;;;;;;;;;;AAGf"}},
+    {"offset": {"line": 50, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}

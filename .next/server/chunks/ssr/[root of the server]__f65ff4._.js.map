@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 79, "column": 0}, "map": {"version":3,"sources":["file:///Users/sodstar/development/web/frontend/x/src/app/books/page.tsx"],"sourcesContent":["import React,{useState} from 'react'\nimport axios from 'axios';\n\nasync function page() {\n    const [books, setBooks] = useState([]);\n\n    const res = await axios.get('http://localhost:8080/post');\n    const result = res.data;\n\n    console.log(result.data[0]);\n  return (\n    <div>Бүх номууд</div>\n  )\n}\n\nexport default page"],"names":[],"mappings":";;;;AAAA;AACA;;;;AAEA,eAAe;IACX,MAAM,CAAC,OAAO,SAAS,GAAG,CAAA,GAAA,qMAAA,CAAA,WAAQ,AAAD,EAAE,EAAE;IAErC,MAAM,MAAM,MAAM,qIAAA,CAAA,UAAK,CAAC,GAAG,CAAC;IAC5B,MAAM,SAAS,IAAI,IAAI;IAEvB,QAAQ,GAAG,CAAC,OAAO,IAAI,CAAC,EAAE;IAC5B,qBACE,8OAAC;kBAAI;;;;;;AAET;uCAEe"}},
+    {"offset": {"line": 102, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}
