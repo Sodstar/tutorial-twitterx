@@ -23,7 +23,7 @@ const page = () => {
     const fetchNotifications = async () => {
       setIsLoading(true);
       try {
-        const data = await getCachedProducts();
+        const data = await getCachedProducts(8);
         setProducts(data);
       } catch (error) {
         toast.error("Failed to fetch notifications");

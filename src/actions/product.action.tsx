@@ -6,10 +6,10 @@ import { revalidatePath, unstable_cache } from "next/cache";
 import { logger } from "@/lib/logger";
 
 export const getCachedProducts = unstable_cache(
-  async () => {
+  async (limit:number) => {
     try {
       await connectDB();
-      const products = await ProductModel.find({});
+      const products = await ProductModel.find({}).limit(limit);
       return products;
     } catch (error) {
       logger.error("Error fetching products:", error);

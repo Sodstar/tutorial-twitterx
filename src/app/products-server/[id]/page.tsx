@@ -21,7 +21,7 @@ export async function generateMetadata({
     },
   };
 }
-async function productDetailPage({ params }: { params: { id: number } }) {
+async function productDetailPage({ params }: { params: { id: Number } }) {
   
     const product = await getProductById(params.id);
     // const [product] = await Promise.all([
