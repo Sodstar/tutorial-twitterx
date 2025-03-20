@@ -1,6 +1,7 @@
 import { create } from "zustand";
 import { persist } from "zustand/middleware";
 import toast from "react-hot-toast"; // Import toast
+import { checkProductCount } from "@/actions/product.action";
 
 // Define cart item type
 interface CartItem {
@@ -21,7 +22,7 @@ interface CartState {
 }
 
 // Create Zustand store with localStorage persistence
-export const useCartStore = create<CartState>()(
+export const useCartStore  =  create<CartState> () (
   persist(
     (set, get) => ({
       cart: [],
@@ -31,7 +32,13 @@ export const useCartStore = create<CartState>()(
         set((state) => {
           const existingItem = state.cart.find((item) => item._id === product._id);
           if (existingItem) {
-            toast.success("Барааны тоо нэмэгдлээ! "+product._id);
+              checkProductCount(product._id).then((stock)=>{
+              if(stock<existingItem.quantity){
+                toast.error("Барааны тоо хүрэхгүй байна! "+product.title);
+              }
+            });
+
+            toast.success("Барааны тоо нэмэгдлээ! "+product.title);
             return {
               cart: state.cart.map((item) =>
                 item._id === product._id ? { ...item, quantity: item.quantity + 1 } : item
@@ -60,6 +67,6 @@ export const useCartStore = create<CartState>()(
 
       clearCart: () => set({ cart: [] }),
     }),
-    { name: "shopping-cart" } // Store cart in localStorage
+    { name: "shopping-cart" }
   )
 );

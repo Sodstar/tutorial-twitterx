@@ -1,11 +1,25 @@
 "use client";
 
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { useCartStore } from "@/store/cartStore";
 import { Button } from "@/components/ui/button";
+import { getDBUserID } from "@/actions/user.action";
+import { set } from "mongoose";
+import { ShoppingCardSkeleton } from "@/components/ShoppingCardSkeleton";
 
 const CartPage = () => {
-  const { cart, removeFromCart, updateQuantity, clearCart } = useCartStore();
+  const { cart, addToCart, removeFromCart, updateQuantity, clearCart } = useCartStore();
+  const [userId,setUserId]= useState<string | null>("");
+
+  useEffect(() => {
+    const fetchUser = async () => {
+      const user = await getDBUserID();
+      setUserId(user);
+    };
+    fetchUser();
+  },[userId]);
+
+  if (!userId) return (<ShoppingCardSkeleton/>);
 
   if (cart.length === 0) return <p>Сагс хоосон байна.</p>;
 

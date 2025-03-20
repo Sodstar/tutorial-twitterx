@@ -7,21 +7,23 @@ import React from "react";
 type BookType = Awaited<ReturnType<typeof getAllBooks>>;
 type BookOne = BookType[number];
 
-async function page({ params }: { params: { id: number } }) {
-  const book = await getBookById(params.id);
-   if (!book) notFound();
+interface PageProps {
+  params: { id: String };
+}
+async function page({ params }: PageProps) {
+  const book = await getBookById(Number(params.id));
+  if (!book) notFound();
   console.log(book);
   return (
     <div>
-      <div className="font-bold">{book.data.title}</div>
+      <div className="font-bold">{book.data?.title}</div>
       <Card className="mt-4">
-        <CardHeader>{book.data.title}</CardHeader>
-        <CardContent><Link
-              href="/books"
-              className="flex flex-col"
-            >
+        <CardHeader>{book.data?.title}</CardHeader>
+        <CardContent>
+          <Link href="/books" className="flex flex-col">
             <div className="text-muted-foreground">Буцах</div>
-            </Link></CardContent>
+          </Link>
+        </CardContent>
       </Card>
     </div>
   );

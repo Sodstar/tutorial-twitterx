@@ -5,6 +5,7 @@ import { getProfileByUsername } from "@/actions/profile.action";
 import { IProduct } from "@/models/productMongo";
 import { useUser } from "@clerk/nextjs";
 import { Button } from "@/components/ui/button";
+import { useCartStore } from "@/store/cartStore"; // Import Zustand store
 
 type productType = IProduct;
 type User = Awaited<ReturnType<typeof getProfileByUsername>>;
@@ -17,8 +18,16 @@ function ProductPageClient({ product }: ProductPageClientProps) {
   const { user: currentUser } = useUser();
   const [isLoading, setIsLoading] = useState(true);
 
+  const addToCart = useCartStore((state) => state.addToCart);
+
   const handleAddToCart = async () => {
-    console.log("Added to cart");
+    addToCart({
+      _id: product._id,
+      title: product.title,
+      price: product.price,
+      quantity: product.stock,
+      image: product.image,
+    });
   };
 
   return (
@@ -106,9 +115,7 @@ function ProductPageClient({ product }: ProductPageClientProps) {
             Сагсанд хийх
           </Button>
         </div>
-        
       </div>
-
     </div>
   );
 }

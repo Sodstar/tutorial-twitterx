@@ -85,7 +85,7 @@ export const getCachedProducts = unstable_cache(
     }
   },
   ["products"],
-  { revalidate: 1 }
+  { revalidate: 3600, tags:["products"] }
 );
 
 export async function getProductById(productId: Number) {
@@ -94,6 +94,18 @@ export async function getProductById(productId: Number) {
     const product = await ProductModel.findById(productId);
     if (!product) throw new Error("Product not found");
     return product;
+  } catch (error) {
+    logger.error(`Error fetching product ID ${productId}:`, error);
+    throw new Error("Failed to fetch product");
+  }
+}
+
+export async function checkProductCount(productId: Number) {
+  try {
+    await connectDB();
+    const product = await ProductModel.findById(productId);
+    if (!product) throw new Error("Product not found");
+    return product.stock;
   } catch (error) {
     logger.error(`Error fetching product ID ${productId}:`, error);
     throw new Error("Failed to fetch product");
