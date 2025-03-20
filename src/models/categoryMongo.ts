@@ -10,14 +10,14 @@ const CategorySchema = new Schema<ICategory>({
   name: { type: String, required: true, unique: true },
   description: { type: String, required: true },
   slug: { type: String, required: true, unique: true },
-}, { timestamps: true });
+}, { 
+  timestamps: true,
+  collection: 'categories' // Explicitly set collection name
+});
 
-let CategoryModel: Model<ICategory>;
+// Model name is 'Category' but collection is 'categories'
+const CategoryModel: Model<ICategory> =
+  mongoose.models.Category ||
+  mongoose.model<ICategory>("Category", CategorySchema);
 
-if (mongoose.models.Products) {
-    CategoryModel = mongoose.models.Categories;
-} else {
-    CategoryModel = mongoose.model<ICategory>("Categories", CategorySchema);
-}
-
-export { CategoryModel };
+export default CategoryModel;

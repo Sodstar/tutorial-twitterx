@@ -9,14 +9,14 @@ import {
 } from "@/components/ui/card"; // Assuming you have shadcn components
 import { getCachedProducts } from "@/actions/product.action";
 import toast from "react-hot-toast";
-import { IProduct } from "@/models/productMongo";
+import Products, { IProduct } from "@/models/productMongo";
 import { ProductSkeleton } from "@/components/ProductSkeleton";
 import { Button } from "@/components/ui/button";
 // type Products = Awaited<ReturnType<typeof getCachedProducts>>;
 
 export default async function page() {
 
-const value = await getProductList(2);
+const value = await getProductList(10);
 console.log(value)
 const returnType=false;
 
@@ -33,7 +33,7 @@ if(returnType)
   return (
     <div>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 gap-8">
-      {value.map((product) => (
+      {value.map((product:any) => (
          <Card
          key={product._id}
          className="border rounded-lg shadow-lg overflow-hidden"
@@ -78,12 +78,13 @@ async function getProductList(limit:number) {
   return productList;
 }
 
+//Suspense
 async function ProductList({limit}:{limit:number}) {
   const productList = await getCachedProducts(limit);
  
   return (
     <>
-      {productList.map((product) => (
+      {productList.map((product:any) => (
          <Card
          key={product._id}
          className="border rounded-lg shadow-lg overflow-hidden"

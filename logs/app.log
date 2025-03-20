@@ -1,661 +1,701 @@
-[2025-03-16T12:59:43.500Z] info: MongoDB Connection (cached)
-[2025-03-16T12:59:43.597Z] error: Error fetching product ID 12: Product not found
-[2025-03-16T12:59:46.025Z] info: MongoDB Connection (cached)
-[2025-03-16T12:59:46.122Z] error: Error fetching product ID 12: Product not found
-[2025-03-16T12:59:46.287Z] info: MongoDB Connection (cached)
-[2025-03-16T12:59:46.383Z] error: Error fetching product ID 12: Product not found
-[2025-03-16T12:59:46.770Z] info: MongoDB Connection (cached)
-[2025-03-16T12:59:46.866Z] error: Error fetching product ID 12: Product not found
-[2025-03-16T12:59:48.164Z] info: MongoDB Connection (cached)
-[2025-03-16T12:59:48.261Z] error: Error fetching product ID 12: Product not found
-[2025-03-16T12:59:51.323Z] info: MongoDB Connection (cached)
-[2025-03-16T12:59:53.103Z] info: MongoDB Connection (cached)
-[2025-03-16T12:59:55.448Z] info: MongoDB Connection (cached)
-[2025-03-16T13:14:09.465Z] info: MongoDB Connected
-[2025-03-16T13:14:11.333Z] info: MongoDB Connection (cached)
-[2025-03-16T13:14:15.556Z] info: MongoDB Connection (cached)
-[2025-03-16T13:23:15.588Z] info: MongoDB Connection (cached)
-[2025-03-16T13:23:22.656Z] info: MongoDB Connection (cached)
-[2025-03-16T13:23:56.814Z] info: MongoDB Connected
-[2025-03-16T13:30:30.470Z] info: MongoDB Connection (cached)
-[2025-03-16T13:33:38.798Z] info: MongoDB Connected
-[2025-03-16T13:33:59.247Z] info: MongoDB Connected
-[2025-03-16T13:37:10.926Z] info: MongoDB Connected
-[2025-03-16T13:37:21.874Z] info: MongoDB Connection (cached)
-[2025-03-16T13:37:28.408Z] info: MongoDB Connection (cached)
-[2025-03-16T13:41:28.401Z] info: MongoDB Connected
-[2025-03-16T13:41:59.502Z] info: MongoDB Connected
-[2025-03-16T13:42:01.150Z] info: MongoDB Connection (cached)
-[2025-03-16T13:42:02.250Z] info: MongoDB Connection (cached)
-[2025-03-16T13:42:03.358Z] info: MongoDB Connection (cached)
-[2025-03-16T13:42:05.305Z] info: MongoDB Connection (cached)
-[2025-03-16T13:42:06.420Z] info: MongoDB Connection (cached)
-[2025-03-16T13:42:07.526Z] info: MongoDB Connection (cached)
-[2025-03-16T13:42:08.632Z] info: MongoDB Connection (cached)
-[2025-03-16T13:42:09.741Z] info: MongoDB Connection (cached)
-[2025-03-16T13:42:10.849Z] info: MongoDB Connection (cached)
-[2025-03-16T13:42:11.956Z] info: MongoDB Connection (cached)
-[2025-03-16T13:42:26.782Z] info: MongoDB Connected
-[2025-03-16T13:42:28.443Z] info: MongoDB Connection (cached)
-[2025-03-16T13:42:29.553Z] info: MongoDB Connection (cached)
-[2025-03-16T13:42:30.662Z] info: MongoDB Connection (cached)
-[2025-03-16T13:42:31.768Z] info: MongoDB Connection (cached)
-[2025-03-16T13:42:32.873Z] info: MongoDB Connection (cached)
-[2025-03-16T13:46:28.718Z] info: MongoDB Connected
-[2025-03-16T13:47:33.682Z] info: MongoDB Connected
-[2025-03-16T13:48:00.240Z] info: MongoDB Connected
-[2025-03-16T13:49:16.494Z] info: MongoDB Connected
-[2025-03-16T13:49:20.922Z] info: MongoDB Connection (cached)
-[2025-03-16T13:55:36.123Z] info: MongoDB Connected
-[2025-03-16T13:55:52.554Z] info: MongoDB Connected
-[2025-03-16T13:59:24.229Z] info: MongoDB Connected
-[2025-03-16T13:59:30.246Z] info: MongoDB Connection (cached)
-[2025-03-16T13:59:33.892Z] info: MongoDB Connection (cached)
-[2025-03-16T14:00:20.639Z] info: MongoDB Connected
-[2025-03-16T14:00:23.800Z] info: MongoDB Connection (cached)
-[2025-03-16T14:00:25.834Z] info: MongoDB Connection (cached)
-[2025-03-16T14:00:50.141Z] info: MongoDB Connected
-[2025-03-16T14:00:52.767Z] info: MongoDB Connection (cached)
-[2025-03-16T14:00:54.722Z] info: MongoDB Connection (cached)
-[2025-03-16T14:01:26.481Z] info: MongoDB Connected
-[2025-03-16T14:01:44.283Z] info: MongoDB Connection (cached)
-[2025-03-16T14:01:46.534Z] info: MongoDB Connection (cached)
-[2025-03-16T14:02:31.666Z] info: MongoDB Connected
-[2025-03-16T14:02:35.271Z] info: MongoDB Connection (cached)
-[2025-03-16T14:02:37.524Z] info: MongoDB Connection (cached)
-[2025-03-16T14:03:26.347Z] info: MongoDB Connected
-[2025-03-16T14:03:29.651Z] info: MongoDB Connection (cached)
-[2025-03-16T14:03:32.193Z] info: MongoDB Connection (cached)
-[2025-03-16T14:04:01.194Z] info: MongoDB Connected
-[2025-03-16T14:04:03.877Z] info: MongoDB Connection (cached)
-[2025-03-16T14:04:16.087Z] info: MongoDB Connected
-[2025-03-16T14:06:39.966Z] info: MongoDB Connected
-[2025-03-16T14:06:57.488Z] info: MongoDB Connection (cached)
-[2025-03-16T14:07:29.156Z] info: MongoDB Connected
-[2025-03-16T14:08:00.405Z] info: MongoDB Connected
-[2025-03-16T14:08:48.279Z] info: MongoDB Connected
-[2025-03-16T14:09:24.315Z] info: MongoDB Connected
-[2025-03-16T14:09:52.346Z] info: MongoDB Connected
-[2025-03-16T14:11:02.500Z] info: MongoDB Connected
-[2025-03-16T14:11:49.741Z] info: MongoDB Connected
-[2025-03-16T14:13:11.971Z] info: MongoDB Connection (cached)
-[2025-03-16T14:13:30.078Z] info: MongoDB Connected
-[2025-03-16T14:14:48.847Z] info: MongoDB Connected
-[2025-03-16T14:18:11.464Z] info: MongoDB Connected
-[2025-03-16T14:18:21.477Z] info: MongoDB Connection (cached)
-[2025-03-16T14:18:25.322Z] info: MongoDB Connection (cached)
-[2025-03-16T14:18:33.047Z] info: MongoDB Connection (cached)
-[2025-03-16T14:25:28.604Z] info: MongoDB Connected
-[2025-03-16T14:25:31.920Z] info: MongoDB Connection (cached)
-[2025-03-16T14:25:49.615Z] info: MongoDB Connected
-[2025-03-16T14:25:53.475Z] info: MongoDB Connection (cached)
-[2025-03-16T14:31:09.081Z] info: MongoDB Connected
-[2025-03-16T14:31:09.125Z] info: MongoDB Connection (cached)
-[2025-03-16T14:31:09.160Z] info: MongoDB Connection (cached)
-[2025-03-16T14:31:33.778Z] info: MongoDB Connection (cached)
-[2025-03-16T14:31:33.813Z] info: MongoDB Connection (cached)
-[2025-03-16T14:31:42.700Z] info: MongoDB Connection (cached)
-[2025-03-16T14:31:42.734Z] info: MongoDB Connection (cached)
-[2025-03-16T14:31:56.770Z] info: MongoDB Connection (cached)
-[2025-03-16T14:31:56.807Z] info: MongoDB Connection (cached)
-[2025-03-16T14:32:34.444Z] info: MongoDB Connection (cached)
-[2025-03-16T14:36:43.379Z] info: MongoDB Connection (cached)
-[2025-03-16T14:37:38.663Z] info: MongoDB Connection (cached)
-[2025-03-16T14:37:38.699Z] info: MongoDB Connection (cached)
-[2025-03-16T14:37:38.736Z] info: MongoDB Connection (cached)
-[2025-03-16T14:37:38.778Z] info: MongoDB Connection (cached)
-[2025-03-16T14:37:38.813Z] info: MongoDB Connection (cached)
-[2025-03-16T14:37:38.847Z] info: MongoDB Connection (cached)
-[2025-03-16T14:37:51.962Z] info: MongoDB Connected
-[2025-03-16T14:37:52.026Z] info: MongoDB Connection (cached)
-[2025-03-16T14:37:52.066Z] info: MongoDB Connection (cached)
-[2025-03-16T14:38:34.802Z] info: MongoDB Connection (cached)
-[2025-03-16T14:38:34.843Z] info: MongoDB Connection (cached)
-[2025-03-16T14:38:34.881Z] info: MongoDB Connection (cached)
-[2025-03-16T14:39:40.850Z] info: MongoDB Connection (cached)
-[2025-03-16T14:39:40.883Z] info: MongoDB Connection (cached)
-[2025-03-16T14:39:40.932Z] info: MongoDB Connection (cached)
-[2025-03-16T14:39:40.966Z] info: MongoDB Connection (cached)
-[2025-03-16T14:40:49.116Z] info: MongoDB Connection (cached)
-[2025-03-16T14:40:49.146Z] info: MongoDB Connection (cached)
-[2025-03-16T14:40:49.178Z] info: MongoDB Connection (cached)
-[2025-03-16T14:40:49.211Z] info: MongoDB Connection (cached)
-[2025-03-16T14:44:49.240Z] info: MongoDB Connection (cached)
-[2025-03-16T14:44:54.078Z] info: MongoDB Connection (cached)
-[2025-03-16T14:44:55.918Z] info: MongoDB Connection (cached)
-[2025-03-16T14:47:18.309Z] info: MongoDB Connected
-[2025-03-16T14:47:18.316Z] info: MongoDB Connection (cached)
-[2025-03-16T14:47:22.545Z] info: MongoDB Connection (cached)
-[2025-03-16T14:47:22.551Z] info: MongoDB Connection (cached)
-[2025-03-16T14:47:37.355Z] info: MongoDB Connected
-[2025-03-16T14:47:37.370Z] info: MongoDB Connection (cached)
-[2025-03-16T14:47:37.411Z] info: MongoDB Connection (cached)
-[2025-03-16T14:47:37.416Z] info: MongoDB Connection (cached)
-[2025-03-16T14:47:37.452Z] info: MongoDB Connection (cached)
-[2025-03-16T14:47:37.457Z] info: MongoDB Connection (cached)
-[2025-03-16T14:47:40.551Z] info: MongoDB Connection (cached)
-[2025-03-16T14:47:40.557Z] info: MongoDB Connection (cached)
-[2025-03-16T14:48:56.574Z] info: MongoDB Connection (cached)
-[2025-03-16T14:48:56.585Z] info: MongoDB Connection (cached)
-[2025-03-16T14:48:56.624Z] info: MongoDB Connection (cached)
-[2025-03-16T14:48:56.632Z] info: MongoDB Connection (cached)
-[2025-03-16T14:48:56.664Z] info: MongoDB Connection (cached)
-[2025-03-16T14:48:56.670Z] info: MongoDB Connection (cached)
-[2025-03-16T14:48:56.704Z] info: MongoDB Connection (cached)
-[2025-03-16T14:48:56.709Z] info: MongoDB Connection (cached)
-[2025-03-16T14:51:29.333Z] info: MongoDB Connected
-[2025-03-16T14:51:29.340Z] info: MongoDB Connection (cached)
-[2025-03-16T14:51:29.378Z] info: MongoDB Connection (cached)
-[2025-03-16T14:51:29.384Z] info: MongoDB Connection (cached)
-[2025-03-16T14:51:29.418Z] info: MongoDB Connection (cached)
-[2025-03-16T14:51:29.423Z] info: MongoDB Connection (cached)
-[2025-03-16T14:51:29.459Z] info: MongoDB Connection (cached)
-[2025-03-16T14:51:29.464Z] info: MongoDB Connection (cached)
-[2025-03-16T14:51:37.224Z] info: MongoDB Connection (cached)
-[2025-03-16T14:51:37.230Z] info: MongoDB Connection (cached)
-[2025-03-16T14:51:38.426Z] info: MongoDB Connection (cached)
-[2025-03-16T14:51:38.434Z] info: MongoDB Connection (cached)
-[2025-03-16T14:51:54.198Z] info: MongoDB Connected
-[2025-03-16T14:51:54.212Z] info: MongoDB Connection (cached)
-[2025-03-16T14:51:54.252Z] info: MongoDB Connection (cached)
-[2025-03-16T14:51:54.259Z] info: MongoDB Connection (cached)
-[2025-03-16T14:52:45.975Z] info: MongoDB Connected
-[2025-03-16T14:52:45.986Z] info: MongoDB Connection (cached)
-[2025-03-16T14:52:46.044Z] info: MongoDB Connection (cached)
-[2025-03-16T14:52:46.050Z] info: MongoDB Connection (cached)
-[2025-03-16T14:52:46.085Z] info: MongoDB Connection (cached)
-[2025-03-16T14:52:46.090Z] info: MongoDB Connection (cached)
-[2025-03-16T14:53:15.514Z] info: MongoDB Connected
-[2025-03-16T14:53:15.526Z] info: MongoDB Connection (cached)
-[2025-03-16T14:53:15.611Z] info: MongoDB Connection (cached)
-[2025-03-16T14:53:15.618Z] info: MongoDB Connection (cached)
-[2025-03-16T14:53:15.663Z] info: MongoDB Connection (cached)
-[2025-03-16T14:53:15.668Z] info: MongoDB Connection (cached)
-[2025-03-16T14:53:18.220Z] info: MongoDB Connection (cached)
-[2025-03-16T14:53:18.226Z] info: MongoDB Connection (cached)
-[2025-03-16T14:53:19.112Z] info: MongoDB Connection (cached)
-[2025-03-16T14:53:19.117Z] info: MongoDB Connection (cached)
-[2025-03-16T14:53:37.483Z] info: MongoDB Connected
-[2025-03-16T14:53:37.491Z] info: MongoDB Connection (cached)
-[2025-03-16T14:53:37.555Z] info: MongoDB Connection (cached)
-[2025-03-16T14:53:37.560Z] info: MongoDB Connection (cached)
-[2025-03-16T14:53:37.596Z] info: MongoDB Connection (cached)
-[2025-03-16T14:53:37.601Z] info: MongoDB Connection (cached)
-[2025-03-16T14:53:44.189Z] info: MongoDB Connection (cached)
-[2025-03-16T14:53:44.196Z] info: MongoDB Connection (cached)
-[2025-03-16T14:53:50.871Z] info: MongoDB Connection (cached)
-[2025-03-16T14:53:50.881Z] info: MongoDB Connection (cached)
-[2025-03-16T14:53:58.026Z] info: MongoDB Connected
-[2025-03-16T14:53:58.036Z] info: MongoDB Connection (cached)
-[2025-03-16T14:53:58.102Z] info: MongoDB Connection (cached)
-[2025-03-16T14:53:58.107Z] info: MongoDB Connection (cached)
-[2025-03-16T14:53:58.152Z] info: MongoDB Connection (cached)
-[2025-03-16T14:53:58.159Z] info: MongoDB Connection (cached)
-[2025-03-16T14:54:16.362Z] info: MongoDB Connected
-[2025-03-16T14:54:16.373Z] info: MongoDB Connection (cached)
-[2025-03-16T14:54:16.443Z] info: MongoDB Connection (cached)
-[2025-03-16T14:54:16.451Z] info: MongoDB Connection (cached)
-[2025-03-16T14:54:16.492Z] info: MongoDB Connection (cached)
-[2025-03-16T14:54:16.498Z] info: MongoDB Connection (cached)
-[2025-03-16T14:54:21.223Z] info: MongoDB Connection (cached)
-[2025-03-16T14:54:21.228Z] info: MongoDB Connection (cached)
-[2025-03-16T14:54:26.613Z] info: MongoDB Connection (cached)
-[2025-03-16T14:56:52.156Z] info: MongoDB Connected
-[2025-03-16T14:57:16.467Z] info: MongoDB Connected
-[2025-03-16T14:57:25.764Z] info: MongoDB Connected
-[2025-03-16T14:57:42.510Z] info: MongoDB Connected
-[2025-03-16T14:57:52.398Z] info: MongoDB Connected
-[2025-03-16T14:57:55.362Z] info: MongoDB Connected
-[2025-03-16T14:58:10.119Z] info: MongoDB Connected
-[2025-03-16T14:58:11.470Z] info: MongoDB Connection (cached)
-[2025-03-16T14:58:52.053Z] info: MongoDB Connection (cached)
-[2025-03-16T14:58:55.796Z] info: MongoDB Connection (cached)
-[2025-03-16T14:59:05.769Z] info: MongoDB Connected
-[2025-03-16T14:59:05.775Z] info: MongoDB Connection (cached)
-[2025-03-16T15:00:25.804Z] info: MongoDB Connected
-[2025-03-16T15:00:25.815Z] info: MongoDB Connection (cached)
-[2025-03-16T15:00:25.864Z] info: MongoDB Connection (cached)
-[2025-03-16T15:00:25.870Z] info: MongoDB Connection (cached)
-[2025-03-16T15:00:25.923Z] info: MongoDB Connection (cached)
-[2025-03-16T15:00:25.934Z] info: MongoDB Connection (cached)
-[2025-03-16T15:00:25.999Z] info: MongoDB Connection (cached)
-[2025-03-16T15:00:26.005Z] info: MongoDB Connection (cached)
-[2025-03-16T15:00:26.044Z] info: MongoDB Connection (cached)
-[2025-03-16T15:00:26.050Z] info: MongoDB Connection (cached)
-[2025-03-16T15:00:26.089Z] info: MongoDB Connection (cached)
-[2025-03-16T15:00:26.096Z] info: MongoDB Connection (cached)
-[2025-03-16T15:01:49.512Z] info: MongoDB Connected
-[2025-03-16T15:01:49.523Z] info: MongoDB Connection (cached)
-[2025-03-16T15:01:49.577Z] info: MongoDB Connection (cached)
-[2025-03-16T15:01:49.583Z] info: MongoDB Connection (cached)
-[2025-03-16T15:01:49.629Z] info: MongoDB Connection (cached)
-[2025-03-16T15:01:49.635Z] info: MongoDB Connection (cached)
-[2025-03-16T15:01:49.687Z] info: MongoDB Connection (cached)
-[2025-03-16T15:01:49.693Z] info: MongoDB Connection (cached)
-[2025-03-16T15:02:58.985Z] info: MongoDB Connected
-[2025-03-16T15:02:59.002Z] info: MongoDB Connection (cached)
-[2025-03-16T15:02:59.070Z] info: MongoDB Connection (cached)
-[2025-03-16T15:02:59.076Z] info: MongoDB Connection (cached)
-[2025-03-16T15:02:59.115Z] info: MongoDB Connection (cached)
-[2025-03-16T15:02:59.121Z] info: MongoDB Connection (cached)
-[2025-03-16T15:02:59.161Z] info: MongoDB Connection (cached)
-[2025-03-16T15:02:59.166Z] info: MongoDB Connection (cached)
-[2025-03-16T15:02:59.206Z] info: MongoDB Connection (cached)
-[2025-03-16T15:02:59.212Z] info: MongoDB Connection (cached)
-[2025-03-16T15:02:59.253Z] info: MongoDB Connection (cached)
-[2025-03-16T15:02:59.258Z] info: MongoDB Connection (cached)
-[2025-03-16T15:03:53.474Z] info: MongoDB Connected
-[2025-03-16T15:03:53.486Z] info: MongoDB Connection (cached)
-[2025-03-16T15:03:53.541Z] info: MongoDB Connection (cached)
-[2025-03-16T15:03:53.548Z] info: MongoDB Connection (cached)
-[2025-03-16T15:03:53.603Z] info: MongoDB Connection (cached)
-[2025-03-16T15:03:53.611Z] info: MongoDB Connection (cached)
-[2025-03-16T15:03:53.670Z] info: MongoDB Connection (cached)
-[2025-03-16T15:03:53.676Z] info: MongoDB Connection (cached)
-[2025-03-16T15:03:53.721Z] info: MongoDB Connection (cached)
-[2025-03-16T15:03:53.727Z] info: MongoDB Connection (cached)
-[2025-03-16T15:03:53.775Z] info: MongoDB Connection (cached)
-[2025-03-16T15:03:53.781Z] info: MongoDB Connection (cached)
-[2025-03-16T15:04:07.960Z] info: MongoDB Connected
-[2025-03-16T15:04:07.969Z] info: MongoDB Connection (cached)
-[2025-03-16T15:04:08.012Z] info: MongoDB Connection (cached)
-[2025-03-16T15:04:08.019Z] info: MongoDB Connection (cached)
-[2025-03-16T15:04:08.074Z] info: MongoDB Connection (cached)
-[2025-03-16T15:04:08.082Z] info: MongoDB Connection (cached)
-[2025-03-16T15:04:08.137Z] info: MongoDB Connection (cached)
-[2025-03-16T15:04:08.145Z] info: MongoDB Connection (cached)
-[2025-03-16T15:04:08.195Z] info: MongoDB Connection (cached)
-[2025-03-16T15:04:08.201Z] info: MongoDB Connection (cached)
-[2025-03-16T15:04:08.251Z] info: MongoDB Connection (cached)
-[2025-03-16T15:04:08.256Z] info: MongoDB Connection (cached)
-[2025-03-16T15:04:09.870Z] info: MongoDB Connection (cached)
-[2025-03-16T15:04:09.875Z] info: MongoDB Connection (cached)
-[2025-03-16T15:04:11.144Z] info: MongoDB Connection (cached)
-[2025-03-16T15:04:11.148Z] info: MongoDB Connection (cached)
-[2025-03-16T15:04:17.863Z] info: MongoDB Connected
-[2025-03-16T15:04:17.871Z] info: MongoDB Connection (cached)
-[2025-03-16T15:04:17.942Z] info: MongoDB Connection (cached)
-[2025-03-16T15:04:17.952Z] info: MongoDB Connection (cached)
-[2025-03-16T15:04:18.023Z] info: MongoDB Connection (cached)
-[2025-03-16T15:04:18.030Z] info: MongoDB Connection (cached)
-[2025-03-16T15:04:18.089Z] info: MongoDB Connection (cached)
-[2025-03-16T15:04:18.096Z] info: MongoDB Connection (cached)
-[2025-03-16T15:04:18.146Z] info: MongoDB Connection (cached)
-[2025-03-16T15:04:18.155Z] info: MongoDB Connection (cached)
-[2025-03-16T15:04:18.205Z] info: MongoDB Connection (cached)
-[2025-03-16T15:04:18.211Z] info: MongoDB Connection (cached)
-[2025-03-16T15:04:19.098Z] info: MongoDB Connection (cached)
-[2025-03-16T15:04:19.105Z] info: MongoDB Connection (cached)
-[2025-03-16T15:04:22.730Z] info: MongoDB Connected
-[2025-03-16T15:04:22.740Z] info: MongoDB Connection (cached)
-[2025-03-16T15:04:22.852Z] info: MongoDB Connection (cached)
-[2025-03-16T15:04:22.864Z] info: MongoDB Connection (cached)
-[2025-03-16T15:04:22.972Z] info: MongoDB Connection (cached)
-[2025-03-16T15:04:22.979Z] info: MongoDB Connection (cached)
-[2025-03-16T15:04:23.026Z] info: MongoDB Connection (cached)
-[2025-03-16T15:04:23.032Z] info: MongoDB Connection (cached)
-[2025-03-16T15:04:23.082Z] info: MongoDB Connection (cached)
-[2025-03-16T15:04:23.087Z] info: MongoDB Connection (cached)
-[2025-03-16T15:04:23.136Z] info: MongoDB Connection (cached)
-[2025-03-16T15:04:23.142Z] info: MongoDB Connection (cached)
-[2025-03-16T15:04:32.540Z] info: MongoDB Connected
-[2025-03-16T15:04:32.548Z] info: MongoDB Connection (cached)
-[2025-03-16T15:04:32.642Z] info: MongoDB Connection (cached)
-[2025-03-16T15:04:32.650Z] info: MongoDB Connection (cached)
-[2025-03-16T15:04:32.718Z] info: MongoDB Connection (cached)
-[2025-03-16T15:04:32.726Z] info: MongoDB Connection (cached)
-[2025-03-16T15:04:32.786Z] info: MongoDB Connection (cached)
-[2025-03-16T15:04:32.793Z] info: MongoDB Connection (cached)
-[2025-03-16T15:04:40.041Z] info: MongoDB Connected
-[2025-03-16T15:04:40.049Z] info: MongoDB Connection (cached)
-[2025-03-16T15:04:40.146Z] info: MongoDB Connection (cached)
-[2025-03-16T15:04:40.159Z] info: MongoDB Connection (cached)
-[2025-03-16T15:04:40.240Z] info: MongoDB Connection (cached)
-[2025-03-16T15:04:40.249Z] info: MongoDB Connection (cached)
-[2025-03-16T15:04:40.302Z] info: MongoDB Connection (cached)
-[2025-03-16T15:04:40.310Z] info: MongoDB Connection (cached)
-[2025-03-16T15:04:40.360Z] info: MongoDB Connection (cached)
-[2025-03-16T15:04:40.367Z] info: MongoDB Connection (cached)
-[2025-03-16T15:04:40.421Z] info: MongoDB Connection (cached)
-[2025-03-16T15:04:40.427Z] info: MongoDB Connection (cached)
-[2025-03-16T15:04:42.650Z] info: MongoDB Connected
-[2025-03-16T15:04:42.658Z] info: MongoDB Connection (cached)
-[2025-03-16T15:04:42.707Z] info: MongoDB Connection (cached)
-[2025-03-16T15:04:42.714Z] info: MongoDB Connection (cached)
-[2025-03-16T15:04:42.765Z] info: MongoDB Connection (cached)
-[2025-03-16T15:04:42.774Z] info: MongoDB Connection (cached)
-[2025-03-16T15:04:42.829Z] info: MongoDB Connection (cached)
-[2025-03-16T15:04:42.836Z] info: MongoDB Connection (cached)
-[2025-03-16T15:04:42.887Z] info: MongoDB Connection (cached)
-[2025-03-16T15:04:42.895Z] info: MongoDB Connection (cached)
-[2025-03-16T15:04:42.944Z] info: MongoDB Connection (cached)
-[2025-03-16T15:04:42.950Z] info: MongoDB Connection (cached)
-[2025-03-16T15:04:46.644Z] info: MongoDB Connected
-[2025-03-16T15:04:46.652Z] info: MongoDB Connection (cached)
-[2025-03-16T15:04:46.698Z] info: MongoDB Connection (cached)
-[2025-03-16T15:04:46.704Z] info: MongoDB Connection (cached)
-[2025-03-16T15:04:46.750Z] info: MongoDB Connection (cached)
-[2025-03-16T15:04:46.755Z] info: MongoDB Connection (cached)
-[2025-03-16T15:04:46.810Z] info: MongoDB Connection (cached)
-[2025-03-16T15:04:46.817Z] info: MongoDB Connection (cached)
-[2025-03-16T15:04:46.869Z] info: MongoDB Connection (cached)
-[2025-03-16T15:04:46.874Z] info: MongoDB Connection (cached)
-[2025-03-16T15:04:46.920Z] info: MongoDB Connection (cached)
-[2025-03-16T15:04:46.925Z] info: MongoDB Connection (cached)
-[2025-03-16T15:05:23.073Z] info: MongoDB Connected
-[2025-03-16T15:05:23.085Z] info: MongoDB Connection (cached)
-[2025-03-16T15:05:23.142Z] info: MongoDB Connection (cached)
-[2025-03-16T15:05:23.148Z] info: MongoDB Connection (cached)
-[2025-03-16T15:05:23.198Z] info: MongoDB Connection (cached)
-[2025-03-16T15:05:23.206Z] info: MongoDB Connection (cached)
-[2025-03-16T15:05:23.296Z] info: MongoDB Connection (cached)
-[2025-03-16T15:05:23.302Z] info: MongoDB Connection (cached)
-[2025-03-16T15:05:23.357Z] info: MongoDB Connection (cached)
-[2025-03-16T15:05:23.364Z] info: MongoDB Connection (cached)
-[2025-03-16T15:05:23.423Z] info: MongoDB Connection (cached)
-[2025-03-16T15:05:23.430Z] info: MongoDB Connection (cached)
-[2025-03-16T15:06:00.901Z] info: MongoDB Connected
-[2025-03-16T15:06:00.912Z] info: MongoDB Connection (cached)
-[2025-03-16T15:06:00.997Z] info: MongoDB Connection (cached)
-[2025-03-16T15:06:01.007Z] info: MongoDB Connection (cached)
-[2025-03-16T15:06:01.065Z] info: MongoDB Connection (cached)
-[2025-03-16T15:06:01.072Z] info: MongoDB Connection (cached)
-[2025-03-16T15:06:01.116Z] info: MongoDB Connection (cached)
-[2025-03-16T15:06:01.122Z] info: MongoDB Connection (cached)
-[2025-03-16T15:06:10.320Z] info: MongoDB Connected
-[2025-03-16T15:06:10.328Z] info: MongoDB Connection (cached)
-[2025-03-16T15:06:10.378Z] info: MongoDB Connection (cached)
-[2025-03-16T15:06:10.385Z] info: MongoDB Connection (cached)
-[2025-03-16T15:06:10.432Z] info: MongoDB Connection (cached)
-[2025-03-16T15:06:10.438Z] info: MongoDB Connection (cached)
-[2025-03-16T15:06:10.496Z] info: MongoDB Connection (cached)
-[2025-03-16T15:06:10.505Z] info: MongoDB Connection (cached)
-[2025-03-16T15:06:10.554Z] info: MongoDB Connection (cached)
-[2025-03-16T15:06:10.561Z] info: MongoDB Connection (cached)
-[2025-03-16T15:06:10.607Z] info: MongoDB Connection (cached)
-[2025-03-16T15:06:10.614Z] info: MongoDB Connection (cached)
-[2025-03-16T15:06:19.171Z] info: MongoDB Connection (cached)
-[2025-03-16T15:06:19.177Z] info: MongoDB Connection (cached)
-[2025-03-16T15:06:44.152Z] info: MongoDB Connected
-[2025-03-16T15:06:44.162Z] info: MongoDB Connection (cached)
-[2025-03-16T15:06:44.214Z] info: MongoDB Connection (cached)
-[2025-03-16T15:06:44.222Z] info: MongoDB Connection (cached)
-[2025-03-16T15:06:44.277Z] info: MongoDB Connection (cached)
-[2025-03-16T15:06:44.283Z] info: MongoDB Connection (cached)
-[2025-03-16T15:06:44.392Z] info: MongoDB Connection (cached)
-[2025-03-16T15:06:44.405Z] info: MongoDB Connection (cached)
-[2025-03-16T15:06:44.495Z] info: MongoDB Connection (cached)
-[2025-03-16T15:06:44.502Z] info: MongoDB Connection (cached)
-[2025-03-16T15:06:44.558Z] info: MongoDB Connection (cached)
-[2025-03-16T15:06:44.564Z] info: MongoDB Connection (cached)
-[2025-03-16T15:06:46.036Z] info: MongoDB Connection (cached)
-[2025-03-16T15:06:46.048Z] info: MongoDB Connection (cached)
-[2025-03-16T15:06:50.083Z] info: MongoDB Connection (cached)
-[2025-03-16T15:23:47.137Z] info: MongoDB Connected
-[2025-03-16T15:25:47.206Z] info: MongoDB Connected
-[2025-03-16T15:26:03.796Z] info: MongoDB Connected
-[2025-03-16T15:26:22.318Z] info: MongoDB Connected
-[2025-03-16T15:28:12.407Z] info: MongoDB Connected
-[2025-03-16T15:28:40.563Z] info: MongoDB Connected
-[2025-03-16T15:29:22.617Z] info: MongoDB Connection (cached)
-[2025-03-16T15:29:31.994Z] info: MongoDB Connection (cached)
-[2025-03-16T15:29:46.149Z] info: MongoDB Connected
-[2025-03-16T15:29:49.007Z] info: MongoDB Connection (cached)
-[2025-03-16T15:29:51.485Z] info: MongoDB Connection (cached)
-[2025-03-16T15:29:55.758Z] info: MongoDB Connection (cached)
-[2025-03-16T15:30:18.056Z] info: MongoDB Connection (cached)
-[2025-03-16T15:30:23.478Z] info: MongoDB Connection (cached)
-[2025-03-16T15:30:50.644Z] info: MongoDB Connected
-[2025-03-16T15:31:09.519Z] info: MongoDB Connected
-[2025-03-16T15:35:07.882Z] info: MongoDB Connected
-[2025-03-16T15:35:28.965Z] info: MongoDB Connected
-[2025-03-16T15:35:36.684Z] info: MongoDB Connection (cached)
-[2025-03-16T15:35:51.303Z] info: MongoDB Connected
-[2025-03-16T15:36:00.489Z] info: MongoDB Connected
-[2025-03-16T15:36:00.495Z] info: MongoDB Connection (cached)
-[2025-03-16T15:36:04.469Z] info: MongoDB Connection (cached)
-[2025-03-16T15:38:44.577Z] info: MongoDB Connection (cached)
-[2025-03-16T15:40:22.874Z] info: MongoDB Connected
-[2025-03-16T15:40:45.652Z] info: MongoDB Connected
-[2025-03-17T02:57:40.962Z] info: MongoDB Connected
-[2025-03-17T04:53:59.196Z] info: MongoDB Connection (cached)
-[2025-03-17T05:16:55.570Z] info: MongoDB Connection (cached)
-[2025-03-17T05:17:00.711Z] info: MongoDB Connection (cached)
-[2025-03-17T05:17:06.465Z] info: MongoDB Connection (cached)
-[2025-03-17T05:17:08.917Z] info: MongoDB Connection (cached)
-[2025-03-17T05:17:11.519Z] info: MongoDB Connection (cached)
-[2025-03-17T05:17:14.109Z] info: MongoDB Connection (cached)
-[2025-03-17T05:17:17.347Z] info: MongoDB Connected
-[2025-03-17T05:17:17.365Z] info: MongoDB Connection (cached)
-[2025-03-17T05:30:05.118Z] info: MongoDB Connected
-[2025-03-17T05:30:42.827Z] info: MongoDB Connection (cached)
-[2025-03-17T05:30:56.503Z] info: MongoDB Connected
-[2025-03-17T05:31:11.415Z] info: MongoDB Connected
-[2025-03-17T05:31:11.428Z] info: MongoDB Connection (cached)
-[2025-03-17T05:31:19.900Z] info: MongoDB Connected
-[2025-03-17T05:31:19.911Z] info: MongoDB Connection (cached)
-[2025-03-17T05:31:19.975Z] info: MongoDB Connection (cached)
-[2025-03-17T05:31:19.984Z] info: MongoDB Connection (cached)
-[2025-03-17T05:31:20.029Z] info: MongoDB Connection (cached)
-[2025-03-17T05:31:20.036Z] info: MongoDB Connection (cached)
-[2025-03-17T05:31:20.080Z] info: MongoDB Connection (cached)
-[2025-03-17T05:31:20.087Z] info: MongoDB Connection (cached)
-[2025-03-17T05:31:28.595Z] info: MongoDB Connection (cached)
-[2025-03-17T05:31:28.608Z] info: MongoDB Connection (cached)
-[2025-03-17T05:31:28.662Z] info: MongoDB Connection (cached)
-[2025-03-17T05:31:28.669Z] info: MongoDB Connection (cached)
-[2025-03-17T05:31:28.720Z] info: MongoDB Connection (cached)
-[2025-03-17T05:31:28.728Z] info: MongoDB Connection (cached)
-[2025-03-17T05:31:28.772Z] info: MongoDB Connection (cached)
-[2025-03-17T05:31:28.780Z] info: MongoDB Connection (cached)
-[2025-03-17T05:31:31.554Z] info: MongoDB Connected
-[2025-03-17T05:31:31.567Z] info: MongoDB Connection (cached)
-[2025-03-17T05:31:31.657Z] info: MongoDB Connection (cached)
-[2025-03-17T05:31:31.666Z] info: MongoDB Connection (cached)
-[2025-03-17T05:31:31.723Z] info: MongoDB Connection (cached)
-[2025-03-17T05:31:31.730Z] info: MongoDB Connection (cached)
-[2025-03-17T05:31:31.783Z] info: MongoDB Connection (cached)
-[2025-03-17T05:31:31.790Z] info: MongoDB Connection (cached)
-[2025-03-17T05:31:36.754Z] info: MongoDB Connected
-[2025-03-17T05:31:45.357Z] info: MongoDB Connected
-[2025-03-17T05:31:48.333Z] info: MongoDB Connection (cached)
-[2025-03-17T05:32:01.736Z] info: MongoDB Connection (cached)
-[2025-03-17T05:32:06.368Z] info: MongoDB Connection (cached)
-[2025-03-17T05:35:36.030Z] info: MongoDB Connection (cached)
-[2025-03-17T05:35:37.395Z] info: MongoDB Connection (cached)
-[2025-03-17T05:35:37.401Z] info: MongoDB Connection (cached)
-[2025-03-17T05:36:15.115Z] info: MongoDB Connected
-[2025-03-17T05:36:15.126Z] info: MongoDB Connection (cached)
-[2025-03-17T05:36:15.220Z] info: MongoDB Connection (cached)
-[2025-03-17T05:36:15.229Z] info: MongoDB Connection (cached)
-[2025-03-17T05:36:34.867Z] info: MongoDB Connected
-[2025-03-17T05:36:34.874Z] info: MongoDB Connection (cached)
-[2025-03-17T05:36:34.953Z] info: MongoDB Connection (cached)
-[2025-03-17T05:36:34.962Z] info: MongoDB Connection (cached)
-[2025-03-17T05:36:38.089Z] info: MongoDB Connected
-[2025-03-17T05:36:38.099Z] info: MongoDB Connection (cached)
-[2025-03-17T05:36:38.146Z] info: MongoDB Connection (cached)
-[2025-03-17T05:36:38.154Z] info: MongoDB Connection (cached)
-[2025-03-17T05:37:57.864Z] info: MongoDB Connected
-[2025-03-17T05:37:57.877Z] info: MongoDB Connection (cached)
-[2025-03-17T05:37:58.011Z] info: MongoDB Connection (cached)
-[2025-03-17T05:37:58.020Z] info: MongoDB Connection (cached)
-[2025-03-17T05:38:20.827Z] info: MongoDB Connected
-[2025-03-17T05:38:20.839Z] info: MongoDB Connection (cached)
-[2025-03-17T05:38:21.058Z] info: MongoDB Connection (cached)
-[2025-03-17T05:38:21.072Z] info: MongoDB Connection (cached)
-[2025-03-17T05:39:18.910Z] info: MongoDB Connected
-[2025-03-17T05:39:18.921Z] info: MongoDB Connection (cached)
-[2025-03-17T05:39:19.038Z] info: MongoDB Connection (cached)
-[2025-03-17T05:39:19.051Z] info: MongoDB Connection (cached)
-[2025-03-17T05:39:26.382Z] info: MongoDB Connected
-[2025-03-17T05:39:26.392Z] info: MongoDB Connection (cached)
-[2025-03-17T05:39:26.447Z] info: MongoDB Connection (cached)
-[2025-03-17T05:39:26.455Z] info: MongoDB Connection (cached)
-[2025-03-17T05:39:29.234Z] info: MongoDB Connection (cached)
-[2025-03-17T05:39:29.240Z] info: MongoDB Connection (cached)
-[2025-03-17T05:41:53.076Z] info: MongoDB Connected
-[2025-03-17T05:41:53.120Z] info: MongoDB Connection (cached)
-[2025-03-17T05:41:53.251Z] info: MongoDB Connection (cached)
-[2025-03-17T05:41:53.260Z] info: MongoDB Connection (cached)
-[2025-03-17T05:42:20.524Z] info: MongoDB Connected
-[2025-03-17T05:42:20.534Z] info: MongoDB Connection (cached)
-[2025-03-17T05:42:20.634Z] info: MongoDB Connection (cached)
-[2025-03-17T05:42:20.642Z] info: MongoDB Connection (cached)
-[2025-03-17T05:42:34.325Z] info: MongoDB Connected
-[2025-03-17T05:42:34.339Z] info: MongoDB Connection (cached)
-[2025-03-17T05:42:34.405Z] info: MongoDB Connection (cached)
-[2025-03-17T05:42:34.417Z] info: MongoDB Connection (cached)
-[2025-03-17T05:42:51.819Z] info: MongoDB Connected
-[2025-03-17T05:42:51.832Z] info: MongoDB Connection (cached)
-[2025-03-17T05:42:51.999Z] info: MongoDB Connection (cached)
-[2025-03-17T05:42:52.009Z] info: MongoDB Connection (cached)
-[2025-03-18T00:10:52.062Z] info: MongoDB Connected
-[2025-03-18T00:10:54.920Z] info: MongoDB Connection (cached)
-[2025-03-18T00:10:54.932Z] info: MongoDB Connection (cached)
-[2025-03-18T00:18:59.974Z] info: MongoDB Connected
-[2025-03-18T00:30:26.063Z] info: MongoDB Connected
-[2025-03-18T00:30:37.740Z] info: MongoDB Connection (cached)
-[2025-03-18T00:30:37.752Z] info: MongoDB Connection (cached)
-[2025-03-18T00:38:08.395Z] info: MongoDB Connection (cached)
-[2025-03-18T00:38:11.237Z] info: MongoDB Connection (cached)
-[2025-03-18T00:38:11.247Z] info: MongoDB Connection (cached)
-[2025-03-18T02:00:51.208Z] info: MongoDB Connected
-[2025-03-18T02:01:06.434Z] info: MongoDB Connection (cached)
-[2025-03-18T02:01:06.449Z] info: MongoDB Connection (cached)
-[2025-03-18T02:27:41.972Z] info: MongoDB Connection (cached)
-[2025-03-18T02:27:49.943Z] info: MongoDB Connection (cached)
-[2025-03-18T02:27:49.952Z] info: MongoDB Connection (cached)
-[2025-03-18T02:28:29.757Z] info: MongoDB Connected
-[2025-03-18T02:28:29.766Z] info: MongoDB Connection (cached)
-[2025-03-18T02:28:29.796Z] info: MongoDB Connection (cached)
-[2025-03-18T02:28:29.807Z] info: MongoDB Connection (cached)
-[2025-03-18T02:28:29.829Z] info: MongoDB Connection (cached)
-[2025-03-18T02:28:29.836Z] info: MongoDB Connection (cached)
-[2025-03-18T02:28:29.937Z] info: MongoDB Connection (cached)
-[2025-03-18T02:28:29.943Z] info: MongoDB Connection (cached)
-[2025-03-18T02:28:29.998Z] info: MongoDB Connection (cached)
-[2025-03-18T02:28:30.004Z] info: MongoDB Connection (cached)
-[2025-03-18T02:28:30.041Z] info: MongoDB Connection (cached)
-[2025-03-18T02:28:30.048Z] info: MongoDB Connection (cached)
-[2025-03-18T02:28:35.054Z] info: MongoDB Connected
-[2025-03-18T02:34:28.518Z] info: MongoDB Connected
-[2025-03-18T05:16:35.098Z] info: MongoDB Connected
-[2025-03-18T05:16:43.856Z] info: MongoDB Connection (cached)
-[2025-03-18T05:17:03.766Z] info: MongoDB Connected
-[2025-03-18T05:17:21.120Z] info: MongoDB Connection (cached)
-[2025-03-18T05:18:02.901Z] info: MongoDB Connected
-[2025-03-18T05:18:02.938Z] info: MongoDB Connection (cached)
-[2025-03-18T05:18:16.723Z] info: MongoDB Connected
-[2025-03-18T05:18:16.758Z] info: MongoDB Connection (cached)
-[2025-03-18T05:18:19.033Z] info: MongoDB Connection (cached)
-[2025-03-18T05:18:20.634Z] info: MongoDB Connection (cached)
-[2025-03-18T05:18:22.708Z] info: MongoDB Connection (cached)
-[2025-03-18T05:18:24.368Z] info: MongoDB Connection (cached)
-[2025-03-18T05:18:30.645Z] info: MongoDB Connection (cached)
-[2025-03-18T05:18:43.155Z] info: MongoDB Connection (cached)
-[2025-03-18T05:19:06.067Z] info: MongoDB Connection (cached)
-[2025-03-18T05:19:18.079Z] info: MongoDB Connection (cached)
-[2025-03-18T05:19:29.162Z] info: MongoDB Connection (cached)
-[2025-03-18T05:19:35.288Z] info: MongoDB Connection (cached)
-[2025-03-18T05:19:39.177Z] info: MongoDB Connection (cached)
-[2025-03-18T05:19:43.631Z] info: MongoDB Connection (cached)
-[2025-03-18T05:19:48.710Z] info: MongoDB Connection (cached)
-[2025-03-18T05:19:52.612Z] info: MongoDB Connection (cached)
-[2025-03-18T05:19:59.556Z] info: MongoDB Connection (cached)
-[2025-03-18T05:20:02.524Z] info: MongoDB Connection (cached)
-[2025-03-18T05:20:06.919Z] info: MongoDB Connection (cached)
-[2025-03-18T05:20:14.196Z] info: MongoDB Connection (cached)
-[2025-03-18T05:23:24.249Z] info: MongoDB Connection (cached)
-[2025-03-18T05:23:44.448Z] info: MongoDB Connected
-[2025-03-18T05:23:44.489Z] info: MongoDB Connection (cached)
-[2025-03-18T05:23:44.523Z] info: MongoDB Connection (cached)
-[2025-03-18T05:23:48.951Z] info: MongoDB Connection (cached)
-[2025-03-18T05:23:51.176Z] info: MongoDB Connection (cached)
-[2025-03-18T05:24:39.204Z] info: MongoDB Connected
-[2025-03-18T05:24:39.252Z] info: MongoDB Connection (cached)
-[2025-03-18T05:24:45.216Z] info: MongoDB Connection (cached)
-[2025-03-18T05:24:47.844Z] info: MongoDB Connection (cached)
-[2025-03-18T05:24:52.243Z] info: MongoDB Connection (cached)
-[2025-03-18T05:24:55.092Z] info: MongoDB Connection (cached)
-[2025-03-18T05:24:59.281Z] info: MongoDB Connection (cached)
-[2025-03-18T05:25:07.421Z] info: MongoDB Connection (cached)
-[2025-03-18T05:25:09.246Z] info: MongoDB Connection (cached)
-[2025-03-18T05:25:12.929Z] info: MongoDB Connection (cached)
-[2025-03-18T05:25:32.791Z] info: MongoDB Connected
-[2025-03-18T05:25:32.835Z] info: MongoDB Connection (cached)
-[2025-03-18T05:25:32.867Z] info: MongoDB Connection (cached)
-[2025-03-18T05:25:36.173Z] info: MongoDB Connection (cached)
-[2025-03-18T05:25:39.485Z] info: MongoDB Connected
-[2025-03-18T05:25:39.522Z] info: MongoDB Connection (cached)
-[2025-03-18T05:25:39.551Z] info: MongoDB Connection (cached)
-[2025-03-18T05:25:42.832Z] info: MongoDB Connection (cached)
-[2025-03-18T05:26:02.843Z] info: MongoDB Connection (cached)
-[2025-03-18T05:26:30.772Z] info: MongoDB Connected
-[2025-03-18T05:26:30.837Z] info: MongoDB Connection (cached)
-[2025-03-18T05:26:30.869Z] info: MongoDB Connection (cached)
-[2025-03-18T05:26:41.292Z] info: MongoDB Connected
-[2025-03-18T05:26:41.329Z] info: MongoDB Connection (cached)
-[2025-03-18T05:26:41.359Z] info: MongoDB Connection (cached)
-[2025-03-18T05:26:46.343Z] info: MongoDB Connection (cached)
-[2025-03-18T05:26:49.835Z] info: MongoDB Connection (cached)
-[2025-03-18T05:26:52.149Z] info: MongoDB Connection (cached)
-[2025-03-18T05:26:56.744Z] info: MongoDB Connected
-[2025-03-18T05:28:36.849Z] info: MongoDB Connected
-[2025-03-18T05:28:36.915Z] info: MongoDB Connection (cached)
-[2025-03-18T05:28:36.947Z] info: MongoDB Connection (cached)
-[2025-03-18T05:30:08.905Z] info: MongoDB Connected
-[2025-03-18T05:30:08.907Z] info: MongoDB Connection (cached)
-[2025-03-18T05:30:09.007Z] info: MongoDB Connection (cached)
-[2025-03-18T05:30:09.008Z] info: MongoDB Connection (cached)
-[2025-03-18T05:30:44.387Z] info: MongoDB Connected
-[2025-03-18T05:30:44.392Z] info: MongoDB Connection (cached)
-[2025-03-18T05:30:44.460Z] info: MongoDB Connection (cached)
-[2025-03-18T05:30:44.460Z] info: MongoDB Connection (cached)
-[2025-03-18T05:31:48.154Z] info: MongoDB Connected
-[2025-03-18T05:31:48.225Z] info: MongoDB Connection (cached)
-[2025-03-18T05:31:54.913Z] info: MongoDB Connection (cached)
-[2025-03-18T05:32:03.076Z] info: MongoDB Connection (cached)
-[2025-03-18T05:32:38.424Z] info: MongoDB Connected
-[2025-03-18T05:32:38.487Z] info: MongoDB Connection (cached)
-[2025-03-18T05:32:38.523Z] info: MongoDB Connection (cached)
-[2025-03-18T05:32:43.337Z] info: MongoDB Connected
-[2025-03-18T05:32:43.339Z] info: MongoDB Connection (cached)
-[2025-03-18T05:32:43.376Z] info: MongoDB Connection (cached)
-[2025-03-18T05:32:43.377Z] info: MongoDB Connection (cached)
-[2025-03-18T05:32:43.409Z] info: MongoDB Connection (cached)
-[2025-03-18T05:32:43.410Z] info: MongoDB Connection (cached)
-[2025-03-18T05:32:47.668Z] info: MongoDB Connection (cached)
-[2025-03-18T05:32:47.669Z] info: MongoDB Connection (cached)
-[2025-03-18T05:32:53.286Z] info: MongoDB Connected
-[2025-03-18T05:32:53.324Z] info: MongoDB Connection (cached)
-[2025-03-18T05:32:53.355Z] info: MongoDB Connection (cached)
-[2025-03-18T05:32:53.390Z] info: MongoDB Connection (cached)
-[2025-03-18T05:32:56.014Z] info: MongoDB Connection (cached)
-[2025-03-18T05:44:45.720Z] info: MongoDB Connection (cached)
-[2025-03-18T05:54:53.253Z] info: MongoDB Connection (cached)
-[2025-03-18T06:02:24.587Z] info: MongoDB Connection (cached)
-[2025-03-18T06:22:59.141Z] info: MongoDB Connection (cached)
-[2025-03-18T06:22:59.190Z] info: MongoDB Connection (cached)
-[2025-03-18T06:22:59.229Z] info: MongoDB Connection (cached)
-[2025-03-18T06:23:01.838Z] info: MongoDB Connection (cached)
-[2025-03-18T06:23:05.874Z] info: MongoDB Connection (cached)
-[2025-03-18T06:23:05.881Z] info: MongoDB Connection (cached)
-[2025-03-18T09:29:14.408Z] info: MongoDB Connection (cached)
-[2025-03-18T09:36:14.374Z] info: MongoDB Connection (cached)
-[2025-03-18T09:36:23.675Z] info: MongoDB Connection (cached)
-[2025-03-18T09:36:26.840Z] info: MongoDB Connection (cached)
-[2025-03-18T09:36:26.851Z] info: MongoDB Connection (cached)
-[2025-03-18T09:36:32.129Z] info: MongoDB Connection (cached)
-[2025-03-18T09:36:36.188Z] info: MongoDB Connection (cached)
-[2025-03-18T09:36:38.500Z] info: MongoDB Connection (cached)
-[2025-03-18T09:36:41.368Z] info: MongoDB Connection (cached)
-[2025-03-18T09:36:43.957Z] info: MongoDB Connection (cached)
-[2025-03-18T09:36:46.250Z] info: MongoDB Connection (cached)
-[2025-03-18T09:37:50.418Z] info: MongoDB Connection (cached)
-[2025-03-18T09:37:54.592Z] info: MongoDB Connection (cached)
-[2025-03-18T09:38:53.897Z] info: MongoDB Connection (cached)
-[2025-03-19T02:36:15.153Z] info: MongoDB Connected
-[2025-03-19T02:36:20.200Z] info: MongoDB Connection (cached)
-[2025-03-19T02:36:25.129Z] info: MongoDB Connection (cached)
-[2025-03-19T02:36:30.308Z] info: MongoDB Connection (cached)
+[2025-03-19T03:59:04.703Z] info: MongoDB Connected
+[2025-03-19T03:59:04.705Z] error: Error fetching all categories: Cannot read properties of undefined (reading 'find')
+[2025-03-19T03:59:05.362Z] info: MongoDB Connection (cached)
+[2025-03-19T03:59:35.371Z] info: MongoDB Connected
+[2025-03-19T03:59:35.371Z] error: Error fetching all categories: Cannot read properties of undefined (reading 'find')
+[2025-03-19T03:59:35.733Z] info: MongoDB Connection (cached)
+[2025-03-19T04:01:25.434Z] info: MongoDB Connected
+[2025-03-19T04:01:25.725Z] info: MongoDB Connection (cached)
+[2025-03-19T04:02:21.992Z] info: MongoDB Connected
+[2025-03-19T04:02:22.451Z] info: MongoDB Connection (cached)
+[2025-03-19T04:02:25.859Z] info: MongoDB Connection (cached)
+[2025-03-19T04:02:26.151Z] info: MongoDB Connection (cached)
+[2025-03-19T04:02:54.950Z] info: MongoDB Connected
+[2025-03-19T04:02:55.249Z] info: MongoDB Connection (cached)
+[2025-03-19T04:03:38.134Z] info: MongoDB Connected
+[2025-03-19T04:03:38.336Z] info: MongoDB Connection (cached)
+[2025-03-19T04:03:53.967Z] info: MongoDB Connected
+[2025-03-19T04:03:54.181Z] info: MongoDB Connection (cached)
+[2025-03-19T04:05:03.528Z] info: MongoDB Connected
+[2025-03-19T04:05:03.764Z] info: MongoDB Connection (cached)
+[2025-03-19T04:05:35.702Z] info: MongoDB Connected
+[2025-03-19T04:05:35.910Z] info: MongoDB Connection (cached)
+[2025-03-19T04:05:44.833Z] info: MongoDB Connected
+[2025-03-19T04:05:45.081Z] info: MongoDB Connection (cached)
+[2025-03-19T06:03:51.958Z] info: MongoDB Connection (cached)
+[2025-03-19T06:03:53.004Z] info: MongoDB Connection (cached)
+[2025-03-19T06:04:14.582Z] info: MongoDB Connection (cached)
+[2025-03-19T06:05:57.098Z] info: MongoDB Connected
+[2025-03-19T06:05:57.278Z] info: MongoDB Connection (cached)
+[2025-03-19T06:06:48.889Z] info: MongoDB Connected
+[2025-03-19T06:06:49.105Z] info: MongoDB Connection (cached)
+[2025-03-19T06:07:14.539Z] info: MongoDB Connected
+[2025-03-19T06:07:14.731Z] info: MongoDB Connection (cached)
+[2025-03-19T06:10:24.022Z] info: MongoDB Connected
+[2025-03-19T06:10:24.125Z] error: Error fetching filtered products: Schema hasn't been registered for model "Category".
+Use mongoose.model(name, schema)
+[2025-03-19T06:10:29.553Z] info: MongoDB Connection (cached)
+[2025-03-19T06:10:29.754Z] error: Error fetching filtered products: Schema hasn't been registered for model "Category".
+Use mongoose.model(name, schema)
+[2025-03-19T06:10:39.485Z] info: MongoDB Connected
+[2025-03-19T06:11:08.748Z] info: MongoDB Connected
+[2025-03-19T06:11:10.426Z] info: MongoDB Connection (cached)
+[2025-03-19T06:11:15.403Z] info: MongoDB Connection (cached)
+[2025-03-19T06:11:30.503Z] info: MongoDB Connection (cached)
+[2025-03-19T06:11:49.448Z] info: MongoDB Connection (cached)
+[2025-03-19T06:12:07.192Z] info: MongoDB Connected
+[2025-03-19T06:12:16.027Z] info: MongoDB Connected
+[2025-03-19T06:12:26.041Z] info: MongoDB Connected
+[2025-03-19T06:12:36.484Z] info: MongoDB Connected
+[2025-03-19T06:13:32.561Z] info: MongoDB Connected
+[2025-03-19T06:13:39.176Z] info: MongoDB Connected
+[2025-03-19T06:13:39.379Z] error: Error fetching filtered products: Schema hasn't been registered for model "Category".
+Use mongoose.model(name, schema)
+[2025-03-19T06:13:49.177Z] info: MongoDB Connected
+[2025-03-19T06:13:55.593Z] info: MongoDB Connected
+[2025-03-19T06:14:06.842Z] info: MongoDB Connected
+[2025-03-19T06:14:07.042Z] error: Error fetching filtered products: Schema hasn't been registered for model "Category".
+Use mongoose.model(name, schema)
+[2025-03-19T06:14:22.811Z] info: MongoDB Connected
+[2025-03-19T06:14:23.024Z] error: Error fetching filtered products: Schema hasn't been registered for model "Category".
+Use mongoose.model(name, schema)
+[2025-03-19T06:14:23.813Z] info: MongoDB Connection (cached)
+[2025-03-19T06:14:24.017Z] error: Error fetching filtered products: Schema hasn't been registered for model "Category".
+Use mongoose.model(name, schema)
+[2025-03-19T06:17:49.360Z] info: MongoDB Connected
+[2025-03-19T06:17:50.112Z] error: Error fetching filtered products: Schema hasn't been registered for model "Category".
+Use mongoose.model(name, schema)
+[2025-03-19T06:17:52.236Z] info: MongoDB Connected
+[2025-03-19T06:17:52.387Z] info: MongoDB Connection (cached)
+[2025-03-19T06:18:05.489Z] info: MongoDB Connection (cached)
+[2025-03-19T06:18:05.726Z] error: Error fetching filtered products: Schema hasn't been registered for model "Category".
+Use mongoose.model(name, schema)
+[2025-03-19T06:18:33.003Z] info: MongoDB Connected
+[2025-03-19T06:18:43.829Z] info: MongoDB Connected
+[2025-03-19T06:18:47.893Z] info: MongoDB Connected
+[2025-03-19T06:18:51.888Z] info: MongoDB Connected
+[2025-03-19T06:18:52.123Z] error: Error fetching filtered products: Schema hasn't been registered for model "Category".
+Use mongoose.model(name, schema)
+[2025-03-19T06:19:02.440Z] info: MongoDB Connected
+[2025-03-19T06:19:08.807Z] info: MongoDB Connected
+[2025-03-19T06:19:09.039Z] error: Error fetching filtered products: Schema hasn't been registered for model "Category".
+Use mongoose.model(name, schema)
+[2025-03-19T06:19:22.856Z] info: MongoDB Connection (cached)
+[2025-03-19T06:19:23.090Z] error: Error fetching filtered products: Schema hasn't been registered for model "Category".
+Use mongoose.model(name, schema)
+[2025-03-19T06:24:38.303Z] info: MongoDB Connection (cached)
+[2025-03-19T06:24:38.535Z] error: Error fetching filtered products: Schema hasn't been registered for model "Category".
+Use mongoose.model(name, schema)
+[2025-03-19T06:27:38.576Z] info: MongoDB Connected
+[2025-03-19T06:27:38.808Z] error: Error fetching filtered products: Schema hasn't been registered for model "Category".
+Use mongoose.model(name, schema)
+[2025-03-19T06:39:34.345Z] info: MongoDB Connected
+[2025-03-19T06:39:34.621Z] info: MongoDB Connection (cached)
+[2025-03-19T06:39:37.833Z] info: MongoDB Connection (cached)
+[2025-03-19T06:39:37.966Z] info: MongoDB Connection (cached)
+[2025-03-19T06:39:40.589Z] info: MongoDB Connected
+[2025-03-19T06:39:53.879Z] info: MongoDB Connection (cached)
+[2025-03-19T06:39:56.610Z] info: MongoDB Connection (cached)
+[2025-03-19T06:40:14.505Z] info: MongoDB Connection (cached)
+[2025-03-19T06:40:33.187Z] info: MongoDB Connected
+[2025-03-19T06:40:43.187Z] info: MongoDB Connection (cached)
+[2025-03-19T06:40:47.442Z] info: MongoDB Connection (cached)
+[2025-03-19T06:40:50.897Z] info: MongoDB Connection (cached)
+[2025-03-19T06:40:55.548Z] info: MongoDB Connection (cached)
+[2025-03-19T06:41:09.021Z] info: MongoDB Connected
+[2025-03-19T06:41:10.373Z] info: MongoDB Connection (cached)
+[2025-03-19T06:42:36.407Z] info: MongoDB Connection (cached)
+[2025-03-19T06:42:48.791Z] info: MongoDB Connected
+[2025-03-19T06:43:03.093Z] info: MongoDB Connected
+[2025-03-19T06:43:27.108Z] info: MongoDB Connected
+[2025-03-19T06:43:30.086Z] info: MongoDB Connected
+[2025-03-19T06:43:42.395Z] info: MongoDB Connected
+[2025-03-19T06:43:57.594Z] info: MongoDB Connected
+[2025-03-19T06:43:58.643Z] info: MongoDB Connection (cached)
+[2025-03-19T06:43:59.076Z] info: MongoDB Connected
+[2025-03-19T06:43:59.214Z] info: MongoDB Connection (cached)
+[2025-03-19T06:44:03.716Z] info: MongoDB Connection (cached)
+[2025-03-19T06:44:19.190Z] info: MongoDB Connection (cached)
+[2025-03-19T06:45:34.790Z] info: MongoDB Connected
+[2025-03-19T06:45:40.305Z] info: MongoDB Connection (cached)
+[2025-03-19T06:45:46.581Z] info: MongoDB Connection (cached)
+[2025-03-19T06:46:02.802Z] info: MongoDB Connection (cached)
+[2025-03-19T06:46:24.486Z] info: MongoDB Connected
+[2025-03-19T06:49:30.853Z] info: MongoDB Connected
+[2025-03-19T06:49:54.594Z] info: MongoDB Connected
+[2025-03-19T06:50:17.167Z] info: MongoDB Connection (cached)
+[2025-03-19T06:50:21.151Z] info: MongoDB Connection (cached)
+[2025-03-19T06:50:23.589Z] info: MongoDB Connection (cached)
+[2025-03-19T06:50:26.214Z] info: MongoDB Connection (cached)
+[2025-03-19T06:50:31.168Z] info: MongoDB Connection (cached)
+[2025-03-19T06:50:34.821Z] info: MongoDB Connection (cached)
+[2025-03-19T06:50:39.062Z] info: MongoDB Connection (cached)
+[2025-03-19T06:50:44.682Z] info: MongoDB Connection (cached)
+[2025-03-19T06:51:13.065Z] info: MongoDB Connected
+[2025-03-19T06:51:20.028Z] info: MongoDB Connection (cached)
+[2025-03-19T06:51:23.597Z] info: MongoDB Connection (cached)
+[2025-03-19T06:51:37.343Z] info: MongoDB Connection (cached)
+[2025-03-19T06:52:51.994Z] info: MongoDB Connection (cached)
+[2025-03-19T06:53:08.981Z] info: MongoDB Connection (cached)
+[2025-03-19T06:53:12.218Z] info: MongoDB Connected
+[2025-03-19T06:53:15.864Z] info: MongoDB Connection (cached)
+[2025-03-19T06:53:46.875Z] info: MongoDB Connection (cached)
+[2025-03-19T06:53:51.917Z] info: MongoDB Connection (cached)
+[2025-03-19T06:54:16.248Z] info: MongoDB Connected
+[2025-03-19T06:54:22.413Z] info: MongoDB Connection (cached)
+[2025-03-19T06:54:25.197Z] info: MongoDB Connection (cached)
+[2025-03-19T06:55:32.301Z] info: MongoDB Connected
+[2025-03-19T06:55:32.443Z] info: MongoDB Connection (cached)
+[2025-03-19T06:58:20.284Z] info: MongoDB Connected
+[2025-03-19T06:58:20.455Z] info: MongoDB Connection (cached)
+[2025-03-19T06:58:33.614Z] info: MongoDB Connected
+[2025-03-19T06:58:38.571Z] info: MongoDB Connection (cached)
+[2025-03-19T06:58:38.711Z] info: MongoDB Connection (cached)
+[2025-03-19T07:01:18.727Z] info: MongoDB Connected
+[2025-03-19T07:01:31.280Z] info: MongoDB Connected
+[2025-03-19T07:01:31.414Z] info: MongoDB Connection (cached)
+[2025-03-19T07:01:38.460Z] info: MongoDB Connection (cached)
+[2025-03-19T07:01:38.601Z] info: MongoDB Connection (cached)
+[2025-03-19T07:01:42.628Z] info: MongoDB Connection (cached)
+[2025-03-19T07:01:42.768Z] info: MongoDB Connection (cached)
+[2025-03-19T07:02:14.475Z] info: MongoDB Connected
+[2025-03-19T07:02:14.616Z] info: MongoDB Connection (cached)
+[2025-03-19T07:02:30.667Z] info: MongoDB Connected
+[2025-03-19T07:02:30.807Z] info: MongoDB Connection (cached)
+[2025-03-19T07:02:50.559Z] info: MongoDB Connection (cached)
+[2025-03-19T07:02:50.704Z] info: MongoDB Connection (cached)
+[2025-03-19T07:03:04.017Z] info: MongoDB Connection (cached)
+[2025-03-19T07:03:54.787Z] info: MongoDB Connection (cached)
+[2025-03-19T07:03:54.898Z] error: Error fetching filtered products: Cast to Number failed for value "NaN" (type number) at path "price" for model "Products"
+[2025-03-19T07:04:00.126Z] info: MongoDB Connection (cached)
+[2025-03-19T07:04:00.225Z] error: Error fetching filtered products: Cast to Number failed for value "NaN" (type number) at path "price" for model "Products"
+[2025-03-19T07:04:14.031Z] info: MongoDB Connection (cached)
+[2025-03-19T07:05:16.417Z] info: MongoDB Connected
+[2025-03-19T07:05:16.560Z] info: MongoDB Connection (cached)
+[2025-03-19T07:05:22.249Z] info: MongoDB Connection (cached)
+[2025-03-19T07:05:22.391Z] info: MongoDB Connection (cached)
+[2025-03-19T07:05:42.454Z] info: MongoDB Connected
+[2025-03-19T07:05:42.594Z] info: MongoDB Connection (cached)
+[2025-03-19T07:05:53.444Z] info: MongoDB Connected
+[2025-03-19T07:05:53.589Z] info: MongoDB Connection (cached)
+[2025-03-19T07:06:23.039Z] info: MongoDB Connection (cached)
+[2025-03-19T07:06:23.187Z] info: MongoDB Connection (cached)
+[2025-03-19T07:07:51.433Z] info: MongoDB Connected
+[2025-03-19T07:07:51.572Z] info: MongoDB Connection (cached)
+[2025-03-19T07:07:59.845Z] info: MongoDB Connection (cached)
+[2025-03-19T07:07:59.992Z] info: MongoDB Connection (cached)
+[2025-03-19T07:08:14.907Z] info: MongoDB Connected
+[2025-03-19T07:08:15.057Z] info: MongoDB Connection (cached)
+[2025-03-19T07:08:20.680Z] info: MongoDB Connected
+[2025-03-19T07:08:20.826Z] info: MongoDB Connection (cached)
+[2025-03-19T07:31:19.750Z] info: MongoDB Connection (cached)
+[2025-03-19T07:31:19.912Z] info: MongoDB Connection (cached)
+[2025-03-19T07:32:06.701Z] info: MongoDB Connected
+[2025-03-19T07:32:06.852Z] info: MongoDB Connection (cached)
+[2025-03-19T07:32:19.266Z] info: MongoDB Connected
+[2025-03-19T07:32:19.418Z] info: MongoDB Connection (cached)
+[2025-03-19T07:33:15.871Z] info: MongoDB Connected
+[2025-03-19T07:33:16.020Z] info: MongoDB Connection (cached)
+[2025-03-19T07:34:47.013Z] info: MongoDB Connection (cached)
+[2025-03-19T07:37:20.767Z] info: MongoDB Connected
+[2025-03-19T07:37:21.591Z] info: MongoDB Connection (cached)
+[2025-03-19T07:37:54.329Z] info: MongoDB Connected
+[2025-03-19T07:40:10.491Z] info: MongoDB Connection (cached)
+[2025-03-19T07:40:58.318Z] info: MongoDB Connection (cached)
+[2025-03-19T07:40:58.863Z] info: MongoDB Connection (cached)
+[2025-03-19T07:43:38.053Z] info: MongoDB Connected
+[2025-03-19T07:43:38.203Z] info: MongoDB Connection (cached)
+[2025-03-19T07:44:05.291Z] info: MongoDB Connected
+[2025-03-19T07:44:05.479Z] info: MongoDB Connection (cached)
+[2025-03-19T07:44:30.482Z] info: MongoDB Connection (cached)
+[2025-03-19T07:44:30.635Z] info: MongoDB Connection (cached)
+[2025-03-19T07:44:30.811Z] info: MongoDB Connected
+[2025-03-19T07:44:35.894Z] info: MongoDB Connection (cached)
+[2025-03-19T07:44:39.889Z] info: MongoDB Connection (cached)
+[2025-03-19T07:44:43.074Z] info: MongoDB Connection (cached)
+[2025-03-19T07:44:46.836Z] info: MongoDB Connected
+[2025-03-19T07:46:10.764Z] info: MongoDB Connected
+[2025-03-19T07:46:10.917Z] info: MongoDB Connection (cached)
+[2025-03-19T07:46:16.349Z] info: MongoDB Connection (cached)
+[2025-03-19T07:46:16.499Z] info: MongoDB Connection (cached)
+[2025-03-19T07:46:29.175Z] info: MongoDB Connection (cached)
+[2025-03-19T07:46:29.325Z] info: MongoDB Connection (cached)
+[2025-03-19T07:46:57.593Z] info: MongoDB Connected
+[2025-03-19T07:47:02.523Z] info: MongoDB Connection (cached)
+[2025-03-19T07:47:18.908Z] info: MongoDB Connected
+[2025-03-19T07:47:21.655Z] info: MongoDB Connected
+[2025-03-19T07:47:21.811Z] info: MongoDB Connection (cached)
+[2025-03-19T07:47:29.635Z] info: MongoDB Connection (cached)
+[2025-03-19T07:47:29.790Z] info: MongoDB Connection (cached)
+[2025-03-19T07:47:57.788Z] info: MongoDB Connected
+[2025-03-19T07:47:57.942Z] info: MongoDB Connection (cached)
+[2025-03-19T07:48:33.680Z] info: MongoDB Connected
+[2025-03-19T07:49:16.492Z] info: MongoDB Connected
+[2025-03-19T07:49:17.539Z] info: MongoDB Connected
+[2025-03-19T07:49:17.686Z] info: MongoDB Connection (cached)
+[2025-03-19T07:51:53.076Z] info: MongoDB Connection (cached)
+[2025-03-19T07:51:58.664Z] info: MongoDB Connection (cached)
+[2025-03-19T07:57:16.230Z] info: MongoDB Connected
+[2025-03-19T07:57:32.593Z] info: MongoDB Connected
+[2025-03-19T07:57:32.878Z] info: MongoDB Connection (cached)
+[2025-03-19T07:57:56.930Z] info: MongoDB Connection (cached)
+[2025-03-19T07:57:57.081Z] info: MongoDB Connection (cached)
+[2025-03-19T07:58:10.625Z] info: MongoDB Connection (cached)
+[2025-03-19T07:58:10.775Z] info: MongoDB Connection (cached)
+[2025-03-19T07:58:18.614Z] info: MongoDB Connection (cached)
+[2025-03-19T07:58:18.760Z] info: MongoDB Connection (cached)
+[2025-03-19T07:58:24.424Z] info: MongoDB Connection (cached)
+[2025-03-19T07:58:24.572Z] info: MongoDB Connection (cached)
+[2025-03-19T07:58:43.900Z] info: MongoDB Connection (cached)
+[2025-03-19T07:58:44.048Z] info: MongoDB Connection (cached)
+[2025-03-19T07:59:51.294Z] info: MongoDB Connection (cached)
+[2025-03-19T07:59:58.783Z] info: MongoDB Connection (cached)
+[2025-03-19T08:00:04.401Z] info: MongoDB Connection (cached)
+[2025-03-19T08:00:17.907Z] info: MongoDB Connected
+[2025-03-19T08:00:33.179Z] info: MongoDB Connected
+[2025-03-19T08:00:38.201Z] info: MongoDB Connected
+[2025-03-19T08:02:27.530Z] info: MongoDB Connected
+[2025-03-19T08:02:27.678Z] info: MongoDB Connection (cached)
+[2025-03-19T08:02:34.828Z] info: MongoDB Connection (cached)
+[2025-03-19T08:02:34.983Z] info: MongoDB Connection (cached)
+[2025-03-19T08:02:41.256Z] info: MongoDB Connected
+[2025-03-19T08:02:41.415Z] info: MongoDB Connection (cached)
+[2025-03-19T08:02:45.696Z] info: MongoDB Connected
+[2025-03-19T08:02:45.849Z] info: MongoDB Connection (cached)
+[2025-03-19T08:03:11.248Z] info: MongoDB Connected
+[2025-03-19T08:03:11.405Z] info: MongoDB Connection (cached)
+[2025-03-19T08:03:52.594Z] info: MongoDB Connected
+[2025-03-19T08:03:52.748Z] info: MongoDB Connection (cached)
+[2025-03-19T08:04:01.754Z] info: MongoDB Connection (cached)
+[2025-03-19T08:04:01.914Z] info: MongoDB Connection (cached)
+[2025-03-19T08:04:12.965Z] info: MongoDB Connected
+[2025-03-19T08:04:13.122Z] info: MongoDB Connection (cached)
+[2025-03-19T08:04:21.749Z] info: MongoDB Connection (cached)
+[2025-03-19T08:04:21.906Z] info: MongoDB Connection (cached)
+[2025-03-19T08:04:28.365Z] info: MongoDB Connection (cached)
+[2025-03-19T08:04:28.522Z] info: MongoDB Connection (cached)
+[2025-03-19T08:04:56.383Z] info: MongoDB Connected
+[2025-03-19T08:04:58.829Z] info: MongoDB Connection (cached)
+[2025-03-19T08:05:18.597Z] info: MongoDB Connected
+[2025-03-19T08:05:32.151Z] info: MongoDB Connection (cached)
+[2025-03-19T08:06:15.283Z] info: MongoDB Connection (cached)
+[2025-03-19T08:06:23.472Z] info: MongoDB Connection (cached)
+[2025-03-19T08:06:37.699Z] info: MongoDB Connected
+[2025-03-19T08:06:37.861Z] info: MongoDB Connection (cached)
+[2025-03-19T08:07:00.604Z] info: MongoDB Connected
+[2025-03-19T08:07:00.765Z] info: MongoDB Connection (cached)
+[2025-03-19T08:07:29.501Z] info: MongoDB Connected
+[2025-03-19T08:07:30.325Z] info: MongoDB Connection (cached)
+[2025-03-19T08:07:41.471Z] info: MongoDB Connection (cached)
+[2025-03-19T08:07:41.629Z] info: MongoDB Connection (cached)
+[2025-03-19T14:13:03.525Z] info: MongoDB Connection (cached)
+[2025-03-19T14:13:05.359Z] info: MongoDB Connected
+[2025-03-19T14:13:05.649Z] info: MongoDB Connection (cached)
+[2025-03-19T14:13:20.408Z] info: MongoDB Connected
+[2025-03-19T14:13:20.534Z] info: MongoDB Connection (cached)
+[2025-03-19T14:13:23.071Z] info: MongoDB Connection (cached)
+[2025-03-19T14:13:23.199Z] info: MongoDB Connection (cached)
+[2025-03-19T14:13:41.962Z] info: MongoDB Connection (cached)
+[2025-03-19T14:13:42.089Z] info: MongoDB Connection (cached)
+[2025-03-19T14:14:01.481Z] info: MongoDB Connection (cached)
+[2025-03-19T14:14:01.605Z] info: MongoDB Connection (cached)
+[2025-03-19T14:14:05.702Z] info: MongoDB Connection (cached)
+[2025-03-19T14:14:05.832Z] info: MongoDB Connection (cached)
+[2025-03-19T14:15:30.244Z] info: MongoDB Connected
+[2025-03-19T14:15:31.519Z] info: MongoDB Connection (cached)
+[2025-03-19T14:15:37.002Z] info: MongoDB Connection (cached)
+[2025-03-19T14:16:08.618Z] info: MongoDB Connected
+[2025-03-19T14:16:09.691Z] info: MongoDB Connection (cached)
+[2025-03-19T14:16:14.926Z] info: MongoDB Connected
+[2025-03-19T14:16:39.037Z] info: MongoDB Connected
+[2025-03-19T14:16:56.683Z] info: MongoDB Connected
+[2025-03-19T14:17:03.078Z] info: MongoDB Connected
+[2025-03-19T14:17:15.076Z] info: MongoDB Connected
+[2025-03-19T14:17:23.145Z] info: MongoDB Connected
+[2025-03-19T14:17:36.676Z] info: MongoDB Connection (cached)
+[2025-03-19T14:17:39.839Z] info: MongoDB Connection (cached)
+[2025-03-19T14:17:46.172Z] info: MongoDB Connection (cached)
+[2025-03-19T14:17:56.543Z] info: MongoDB Connected
+[2025-03-19T14:17:57.426Z] info: MongoDB Connection (cached)
+[2025-03-19T14:18:12.737Z] info: MongoDB Connected
+[2025-03-19T14:18:31.192Z] info: MongoDB Connection (cached)
+[2025-03-19T14:18:31.297Z] error: Error fetching filtered products: Cast to Number failed for value "NaN" (type number) at path "price" for model "Products"
+[2025-03-19T14:18:35.586Z] info: MongoDB Connection (cached)
+[2025-03-19T14:18:38.773Z] info: MongoDB Connection (cached)
+[2025-03-19T14:18:43.136Z] info: MongoDB Connection (cached)
+[2025-03-19T14:18:51.874Z] info: MongoDB Connection (cached)
+[2025-03-19T14:18:51.985Z] error: Error fetching filtered products: Cast to Number failed for value "NaN" (type number) at path "price" for model "Products"
+[2025-03-19T14:18:55.218Z] info: MongoDB Connection (cached)
+[2025-03-19T14:18:59.331Z] info: MongoDB Connection (cached)
+[2025-03-19T14:19:05.631Z] info: MongoDB Connection (cached)
+[2025-03-19T14:19:05.740Z] error: Error fetching filtered products: Cast to Number failed for value "NaN" (type number) at path "price" for model "Products"
+[2025-03-19T14:19:08.576Z] info: MongoDB Connection (cached)
+[2025-03-19T14:19:08.670Z] error: Error fetching filtered products: Cast to Number failed for value "NaN" (type number) at path "price" for model "Products"
+[2025-03-19T14:19:11.560Z] info: MongoDB Connection (cached)
+[2025-03-19T14:19:34.536Z] info: MongoDB Connected
+[2025-03-19T14:19:34.631Z] error: Error fetching filtered products: Cast to Number failed for value "NaN" (type number) at path "price" for model "Products"
+[2025-03-19T14:19:51.529Z] info: MongoDB Connected
+[2025-03-19T14:19:51.625Z] error: Error fetching filtered products: Cast to Number failed for value "NaN" (type number) at path "price" for model "Products"
+[2025-03-19T14:19:54.496Z] info: MongoDB Connection (cached)
+[2025-03-19T14:24:02.789Z] info: MongoDB Connected
+[2025-03-19T14:24:05.673Z] info: MongoDB Connected
+[2025-03-19T14:24:05.832Z] info: MongoDB Connection (cached)
+[2025-03-19T14:24:08.989Z] info: MongoDB Connection (cached)
+[2025-03-19T14:24:09.136Z] info: MongoDB Connection (cached)
+[2025-03-19T14:24:15.747Z] info: MongoDB Connection (cached)
+[2025-03-19T14:24:17.027Z] info: MongoDB Connection (cached)
+[2025-03-19T14:24:20.427Z] info: MongoDB Connection (cached)
+[2025-03-19T14:24:20.556Z] info: MongoDB Connection (cached)
+[2025-03-19T14:25:43.342Z] info: MongoDB Connection (cached)
+[2025-03-19T14:25:44.015Z] info: MongoDB Connection (cached)
+[2025-03-19T14:27:54.133Z] info: MongoDB Connected
+[2025-03-19T14:27:54.276Z] info: MongoDB Connection (cached)
+[2025-03-19T14:28:01.616Z] info: MongoDB Connection (cached)
+[2025-03-19T14:28:01.749Z] info: MongoDB Connection (cached)
+[2025-03-19T14:29:01.823Z] info: MongoDB Connected
+[2025-03-19T14:29:01.963Z] info: MongoDB Connection (cached)
+[2025-03-19T14:29:24.363Z] info: MongoDB Connected
+[2025-03-19T14:29:24.495Z] info: MongoDB Connection (cached)
+[2025-03-19T14:30:08.762Z] info: MongoDB Connected
+[2025-03-19T14:30:08.897Z] info: MongoDB Connection (cached)
+[2025-03-19T14:30:27.011Z] info: MongoDB Connected
+[2025-03-19T14:30:27.147Z] info: MongoDB Connection (cached)
+[2025-03-19T14:30:56.489Z] info: MongoDB Connected
+[2025-03-19T14:30:56.625Z] info: MongoDB Connection (cached)
+[2025-03-19T14:34:08.128Z] info: MongoDB Connected
+[2025-03-19T14:34:08.263Z] info: MongoDB Connection (cached)
+[2025-03-19T14:34:12.462Z] info: MongoDB Connection (cached)
+[2025-03-19T14:34:12.598Z] info: MongoDB Connection (cached)
+[2025-03-19T14:34:20.564Z] info: MongoDB Connection (cached)
+[2025-03-19T14:34:20.699Z] info: MongoDB Connection (cached)
+[2025-03-19T14:34:33.530Z] info: MongoDB Connection (cached)
+[2025-03-19T14:34:33.664Z] info: MongoDB Connection (cached)
+[2025-03-19T14:38:18.796Z] info: MongoDB Connected
+[2025-03-19T14:38:18.932Z] info: MongoDB Connection (cached)
+[2025-03-19T14:38:19.282Z] info: MongoDB Connection (cached)
+[2025-03-19T14:38:21.951Z] info: MongoDB Connection (cached)
+[2025-03-19T14:38:23.804Z] info: MongoDB Connection (cached)
+[2025-03-19T14:38:25.163Z] info: MongoDB Connection (cached)
+[2025-03-19T14:38:26.452Z] info: MongoDB Connection (cached)
+[2025-03-19T14:38:28.156Z] info: MongoDB Connection (cached)
+[2025-03-19T14:40:25.639Z] info: MongoDB Connected
+[2025-03-19T14:40:25.788Z] info: MongoDB Connection (cached)
+[2025-03-19T14:40:26.188Z] info: MongoDB Connection (cached)
+[2025-03-19T14:40:33.778Z] info: MongoDB Connection (cached)
+[2025-03-19T14:40:35.462Z] info: MongoDB Connection (cached)
+[2025-03-19T14:40:41.415Z] info: MongoDB Connection (cached)
+[2025-03-19T14:40:42.994Z] info: MongoDB Connection (cached)
+[2025-03-19T14:40:44.415Z] info: MongoDB Connection (cached)
+[2025-03-19T14:40:45.880Z] info: MongoDB Connection (cached)
+[2025-03-19T14:40:48.781Z] info: MongoDB Connection (cached)
+[2025-03-19T14:40:50.243Z] info: MongoDB Connection (cached)
+[2025-03-19T14:40:54.156Z] info: MongoDB Connection (cached)
+[2025-03-19T14:40:55.583Z] info: MongoDB Connection (cached)
+[2025-03-19T14:40:57.042Z] info: MongoDB Connection (cached)
+[2025-03-19T14:41:06.416Z] info: MongoDB Connection (cached)
+[2025-03-19T14:41:07.821Z] info: MongoDB Connection (cached)
+[2025-03-19T14:41:15.683Z] info: MongoDB Connection (cached)
+[2025-03-19T14:41:16.079Z] info: MongoDB Connection (cached)
+[2025-03-19T14:41:16.445Z] info: MongoDB Connection (cached)
+[2025-03-19T14:41:19.167Z] info: MongoDB Connection (cached)
+[2025-03-19T14:41:19.308Z] info: MongoDB Connection (cached)
+[2025-03-19T14:41:19.670Z] info: MongoDB Connection (cached)
+[2025-03-19T14:45:18.819Z] info: MongoDB Connection (cached)
+[2025-03-19T14:45:22.149Z] info: MongoDB Connection (cached)
+[2025-03-19T14:45:30.763Z] info: MongoDB Connected
+[2025-03-19T14:45:30.918Z] info: MongoDB Connection (cached)
+[2025-03-19T14:45:31.282Z] info: MongoDB Connection (cached)
+[2025-03-19T14:45:31.838Z] info: MongoDB Connection (cached)
+[2025-03-19T14:45:33.516Z] info: MongoDB Connection (cached)
+[2025-03-19T14:45:34.370Z] info: MongoDB Connection (cached)
+[2025-03-19T14:45:52.094Z] info: MongoDB Connection (cached)
+[2025-03-19T14:45:57.800Z] info: MongoDB Connection (cached)
+[2025-03-19T14:46:42.448Z] info: MongoDB Connected
+[2025-03-19T14:46:42.590Z] info: MongoDB Connection (cached)
+[2025-03-19T14:46:42.948Z] info: MongoDB Connection (cached)
+[2025-03-19T14:46:47.440Z] info: MongoDB Connection (cached)
+[2025-03-19T14:46:51.599Z] info: MongoDB Connection (cached)
+[2025-03-19T14:46:55.683Z] info: MongoDB Connection (cached)
+[2025-03-19T14:46:58.475Z] info: MongoDB Connection (cached)
+[2025-03-19T14:47:04.209Z] info: MongoDB Connection (cached)
+[2025-03-19T14:47:08.833Z] info: MongoDB Connection (cached)
+[2025-03-19T14:47:09.667Z] info: MongoDB Connection (cached)
+[2025-03-19T14:47:11.129Z] info: MongoDB Connection (cached)
+[2025-03-19T14:47:37.176Z] info: MongoDB Connection (cached)
+[2025-03-19T14:47:39.505Z] info: MongoDB Connection (cached)
+[2025-03-19T15:19:19.833Z] info: MongoDB Connected
+[2025-03-19T15:19:21.965Z] info: MongoDB Connection (cached)
+[2025-03-19T15:19:22.098Z] info: MongoDB Connection (cached)
+[2025-03-19T15:19:22.451Z] info: MongoDB Connection (cached)
+[2025-03-19T15:20:25.671Z] info: MongoDB Connection (cached)
+[2025-03-19T15:20:25.803Z] info: MongoDB Connection (cached)
+[2025-03-19T15:20:26.150Z] info: MongoDB Connection (cached)
+[2025-03-19T15:20:44.802Z] info: MongoDB Connection (cached)
+[2025-03-19T15:21:06.187Z] info: MongoDB Connection (cached)
+[2025-03-19T15:21:06.343Z] info: MongoDB Connection (cached)
+[2025-03-19T15:21:06.692Z] info: MongoDB Connection (cached)
+[2025-03-19T15:23:13.548Z] info: MongoDB Connection (cached)
+[2025-03-19T15:23:13.680Z] info: MongoDB Connection (cached)
+[2025-03-19T15:23:14.013Z] info: MongoDB Connection (cached)
+[2025-03-19T15:23:30.524Z] info: MongoDB Connection (cached)
+[2025-03-19T15:23:30.653Z] info: MongoDB Connection (cached)
+[2025-03-19T15:23:30.985Z] info: MongoDB Connection (cached)
+[2025-03-19T15:23:59.514Z] info: MongoDB Connected
+[2025-03-19T15:23:59.650Z] info: MongoDB Connection (cached)
+[2025-03-19T15:23:59.983Z] info: MongoDB Connection (cached)
+[2025-03-19T15:24:28.695Z] info: MongoDB Connected
+[2025-03-19T15:24:28.828Z] info: MongoDB Connection (cached)
+[2025-03-19T15:24:29.174Z] info: MongoDB Connection (cached)
+[2025-03-19T15:24:45.380Z] info: MongoDB Connected
+[2025-03-19T15:24:45.516Z] info: MongoDB Connection (cached)
+[2025-03-19T15:24:45.861Z] info: MongoDB Connection (cached)
+[2025-03-19T15:25:24.974Z] info: MongoDB Connected
+[2025-03-19T15:25:25.110Z] info: MongoDB Connection (cached)
+[2025-03-19T15:25:25.443Z] info: MongoDB Connection (cached)
+[2025-03-19T15:25:44.066Z] info: MongoDB Connected
+[2025-03-19T15:25:44.197Z] info: MongoDB Connection (cached)
+[2025-03-19T15:25:44.519Z] info: MongoDB Connection (cached)
+[2025-03-19T15:26:18.482Z] info: MongoDB Connected
+[2025-03-19T15:26:18.614Z] info: MongoDB Connection (cached)
+[2025-03-19T15:26:18.973Z] info: MongoDB Connection (cached)
+[2025-03-19T15:28:28.934Z] info: MongoDB Connection (cached)
+[2025-03-19T15:28:29.068Z] info: MongoDB Connection (cached)
+[2025-03-19T15:28:29.403Z] info: MongoDB Connection (cached)
+[2025-03-19T15:29:05.722Z] info: MongoDB Connection (cached)
+[2025-03-19T15:29:05.863Z] info: MongoDB Connection (cached)
+[2025-03-19T15:29:06.228Z] info: MongoDB Connection (cached)
+[2025-03-19T15:29:21.796Z] info: MongoDB Connection (cached)
+[2025-03-19T15:29:22.138Z] info: MongoDB Connection (cached)
+[2025-03-19T15:29:22.476Z] info: MongoDB Connection (cached)
+[2025-03-19T15:29:27.015Z] info: MongoDB Connection (cached)
+[2025-03-19T15:29:27.164Z] info: MongoDB Connection (cached)
+[2025-03-19T15:29:27.561Z] info: MongoDB Connection (cached)
+[2025-03-19T15:31:31.730Z] info: MongoDB Connected
+[2025-03-19T15:31:31.946Z] info: MongoDB Connection (cached)
+[2025-03-19T15:31:32.288Z] info: MongoDB Connection (cached)
+[2025-03-19T15:32:12.924Z] info: MongoDB Connected
+[2025-03-19T15:32:13.076Z] info: MongoDB Connection (cached)
+[2025-03-19T15:32:13.406Z] info: MongoDB Connection (cached)
+[2025-03-19T15:33:21.163Z] info: MongoDB Connected
+[2025-03-19T15:33:21.300Z] info: MongoDB Connection (cached)
+[2025-03-19T15:33:21.646Z] info: MongoDB Connection (cached)
+[2025-03-19T15:33:37.934Z] info: MongoDB Connection (cached)
+[2025-03-19T15:34:19.532Z] info: MongoDB Connected
+[2025-03-19T15:34:36.415Z] info: MongoDB Connected
+[2025-03-19T15:35:05.117Z] info: MongoDB Connected
+[2025-03-19T15:35:08.261Z] info: MongoDB Connected
+[2025-03-19T15:35:19.172Z] info: MongoDB Connection (cached)
+[2025-03-19T15:35:19.518Z] info: MongoDB Connection (cached)
+[2025-03-19T15:35:19.856Z] info: MongoDB Connection (cached)
+[2025-03-19T15:35:25.548Z] info: MongoDB Connection (cached)
+[2025-03-19T15:35:25.692Z] info: MongoDB Connection (cached)
+[2025-03-19T15:35:26.946Z] info: MongoDB Connection (cached)
+[2025-03-19T15:35:31.548Z] info: MongoDB Connection (cached)
+[2025-03-19T15:35:31.890Z] info: MongoDB Connection (cached)
+[2025-03-19T15:35:32.233Z] info: MongoDB Connection (cached)
+[2025-03-19T15:36:40.785Z] info: MongoDB Connected
+[2025-03-19T15:36:40.955Z] info: MongoDB Connection (cached)
+[2025-03-19T15:36:41.310Z] info: MongoDB Connection (cached)
+[2025-03-19T15:36:49.452Z] info: MongoDB Connected
+[2025-03-19T15:36:49.598Z] info: MongoDB Connection (cached)
+[2025-03-19T15:36:49.939Z] info: MongoDB Connection (cached)
+[2025-03-19T15:38:16.326Z] info: MongoDB Connected
+[2025-03-19T15:38:16.514Z] info: MongoDB Connection (cached)
+[2025-03-19T15:38:16.885Z] info: MongoDB Connection (cached)
+[2025-03-19T15:41:10.495Z] info: MongoDB Connected
+[2025-03-19T15:41:15.816Z] info: MongoDB Connection (cached)
+[2025-03-19T15:41:23.300Z] info: MongoDB Connection (cached)
+[2025-03-19T15:41:29.556Z] info: MongoDB Connection (cached)
+[2025-03-19T15:41:40.715Z] info: MongoDB Connection (cached)
+[2025-03-19T15:44:36.436Z] info: MongoDB Connected
+[2025-03-19T15:44:42.828Z] info: MongoDB Connection (cached)
+[2025-03-19T15:44:47.228Z] info: MongoDB Connection (cached)
+[2025-03-19T15:44:50.333Z] info: MongoDB Connection (cached)
+[2025-03-19T15:44:54.220Z] info: MongoDB Connection (cached)
+[2025-03-19T15:45:14.743Z] info: MongoDB Connection (cached)
+[2025-03-19T15:45:24.204Z] info: MongoDB Connection (cached)
+[2025-03-19T15:45:32.752Z] info: MongoDB Connection (cached)
+[2025-03-20T00:37:52.079Z] info: MongoDB Connection (cached)
+[2025-03-20T00:37:52.802Z] info: MongoDB Connection (cached)
+[2025-03-20T00:37:53.197Z] info: MongoDB Connection (cached)
+[2025-03-20T01:14:53.739Z] info: MongoDB Connection (cached)
+[2025-03-20T01:14:55.823Z] info: MongoDB Connection (cached)
+[2025-03-20T01:14:56.737Z] info: MongoDB Connection (cached)
+[2025-03-20T01:14:58.058Z] info: MongoDB Connection (cached)
+[2025-03-20T02:06:39.291Z] info: MongoDB Connection (cached)
+[2025-03-20T02:06:39.430Z] info: MongoDB Connection (cached)
+[2025-03-20T02:06:39.856Z] info: MongoDB Connection (cached)
+[2025-03-20T02:07:04.546Z] info: MongoDB Connected
+[2025-03-20T02:07:04.678Z] info: MongoDB Connection (cached)
+[2025-03-20T02:07:05.072Z] info: MongoDB Connection (cached)
+[2025-03-20T02:08:30.447Z] info: MongoDB Connected
+[2025-03-20T02:08:30.591Z] info: MongoDB Connection (cached)
+[2025-03-20T02:08:30.934Z] info: MongoDB Connection (cached)
+[2025-03-20T02:10:42.233Z] info: MongoDB Connection (cached)
+[2025-03-20T02:10:42.373Z] info: MongoDB Connection (cached)
+[2025-03-20T02:10:42.732Z] info: MongoDB Connection (cached)
+[2025-03-20T03:08:36.135Z] info: MongoDB Connection (cached)
+[2025-03-20T03:08:37.115Z] info: MongoDB Connection (cached)
+[2025-03-20T03:08:37.475Z] info: MongoDB Connection (cached)
+[2025-03-20T04:05:18.877Z] info: MongoDB Connection (cached)
+[2025-03-20T04:05:20.168Z] info: MongoDB Connection (cached)
+[2025-03-20T04:05:20.540Z] info: MongoDB Connection (cached)
+[2025-03-20T04:05:44.996Z] info: MongoDB Connection (cached)
+[2025-03-20T04:05:45.169Z] info: MongoDB Connection (cached)
+[2025-03-20T04:05:45.530Z] info: MongoDB Connection (cached)
+[2025-03-20T04:05:53.683Z] info: MongoDB Connection (cached)
+[2025-03-20T04:05:53.831Z] info: MongoDB Connection (cached)
+[2025-03-20T04:05:54.878Z] info: MongoDB Connection (cached)
+[2025-03-20T04:06:41.233Z] info: MongoDB Connection (cached)
+[2025-03-20T04:06:41.376Z] info: MongoDB Connection (cached)
+[2025-03-20T04:06:41.743Z] info: MongoDB Connection (cached)
+[2025-03-20T04:06:52.870Z] info: MongoDB Connected
+[2025-03-20T04:07:15.987Z] info: MongoDB Connection (cached)
+[2025-03-20T04:07:21.934Z] info: MongoDB Connection (cached)
+[2025-03-20T04:07:42.119Z] info: MongoDB Connected
+[2025-03-20T04:07:46.562Z] info: MongoDB Connected
+[2025-03-20T04:07:59.144Z] info: MongoDB Connected
+[2025-03-20T04:08:26.101Z] info: MongoDB Connected
+[2025-03-20T04:08:52.018Z] info: MongoDB Connected
+[2025-03-20T04:09:29.535Z] info: MongoDB Connected
+[2025-03-20T04:09:33.210Z] info: MongoDB Connection (cached)
+[2025-03-20T04:09:33.569Z] info: MongoDB Connection (cached)
+[2025-03-20T04:09:33.925Z] info: MongoDB Connection (cached)
+[2025-03-20T04:10:20.494Z] info: MongoDB Connected
+[2025-03-20T04:10:21.304Z] info: MongoDB Connection (cached)
+[2025-03-20T04:10:22.003Z] info: MongoDB Connection (cached)
+[2025-03-20T04:10:47.375Z] info: MongoDB Connected
+[2025-03-20T04:10:47.529Z] info: MongoDB Connection (cached)
+[2025-03-20T04:10:47.887Z] info: MongoDB Connection (cached)
+[2025-03-20T04:11:04.573Z] info: MongoDB Connected
+[2025-03-20T04:11:04.751Z] info: MongoDB Connection (cached)
+[2025-03-20T04:11:05.149Z] info: MongoDB Connection (cached)
+[2025-03-20T04:11:10.854Z] info: MongoDB Connected
+[2025-03-20T04:11:11.012Z] info: MongoDB Connection (cached)
+[2025-03-20T04:11:11.379Z] info: MongoDB Connection (cached)
+[2025-03-20T04:11:13.660Z] info: MongoDB Connected
+[2025-03-20T04:11:13.806Z] info: MongoDB Connection (cached)
+[2025-03-20T04:11:14.198Z] info: MongoDB Connection (cached)
+[2025-03-20T04:11:25.331Z] info: MongoDB Connected
+[2025-03-20T04:11:25.476Z] info: MongoDB Connection (cached)
+[2025-03-20T04:11:25.856Z] info: MongoDB Connection (cached)
+[2025-03-20T04:11:48.884Z] info: MongoDB Connected
+[2025-03-20T04:11:49.050Z] info: MongoDB Connection (cached)
+[2025-03-20T04:11:49.403Z] info: MongoDB Connection (cached)
+[2025-03-20T04:11:54.431Z] info: MongoDB Connected
+[2025-03-20T04:11:54.574Z] info: MongoDB Connection (cached)
+[2025-03-20T04:11:54.936Z] info: MongoDB Connection (cached)
+[2025-03-20T04:12:09.061Z] info: MongoDB Connected
+[2025-03-20T04:12:09.214Z] info: MongoDB Connection (cached)
+[2025-03-20T04:12:09.558Z] info: MongoDB Connection (cached)
+[2025-03-20T04:12:14.443Z] info: MongoDB Connected
+[2025-03-20T04:12:14.587Z] info: MongoDB Connection (cached)
+[2025-03-20T04:12:14.930Z] info: MongoDB Connection (cached)
+[2025-03-20T04:12:18.966Z] info: MongoDB Connected
+[2025-03-20T04:12:19.511Z] info: MongoDB Connection (cached)
+[2025-03-20T04:12:20.859Z] info: MongoDB Connected
+[2025-03-20T04:12:22.824Z] info: MongoDB Connection (cached)
+[2025-03-20T04:12:22.966Z] info: MongoDB Connection (cached)
+[2025-03-20T04:12:23.313Z] info: MongoDB Connection (cached)
+[2025-03-20T04:12:28.914Z] info: MongoDB Connected
+[2025-03-20T04:12:29.087Z] info: MongoDB Connection (cached)
+[2025-03-20T04:12:29.440Z] info: MongoDB Connection (cached)
+[2025-03-20T04:12:38.072Z] info: MongoDB Connected
+[2025-03-20T04:12:38.223Z] info: MongoDB Connection (cached)
+[2025-03-20T04:12:38.567Z] info: MongoDB Connection (cached)
+[2025-03-20T04:12:41.969Z] info: MongoDB Connected
+[2025-03-20T04:12:42.113Z] info: MongoDB Connection (cached)
+[2025-03-20T04:12:42.491Z] info: MongoDB Connection (cached)
+[2025-03-20T04:12:57.960Z] info: MongoDB Connected
+[2025-03-20T04:12:58.112Z] info: MongoDB Connection (cached)
+[2025-03-20T04:12:58.460Z] info: MongoDB Connection (cached)
+[2025-03-20T04:13:04.101Z] info: MongoDB Connected
+[2025-03-20T04:13:04.309Z] info: MongoDB Connection (cached)
+[2025-03-20T04:13:04.662Z] info: MongoDB Connection (cached)
+[2025-03-20T04:14:51.411Z] info: MongoDB Connected
+[2025-03-20T04:14:51.574Z] info: MongoDB Connection (cached)
+[2025-03-20T04:14:51.998Z] info: MongoDB Connection (cached)
+[2025-03-20T04:15:14.626Z] info: MongoDB Connected
+[2025-03-20T04:15:14.790Z] info: MongoDB Connection (cached)
+[2025-03-20T04:15:15.186Z] info: MongoDB Connection (cached)
+[2025-03-20T04:15:36.040Z] info: MongoDB Connected
+[2025-03-20T04:15:36.214Z] info: MongoDB Connection (cached)
+[2025-03-20T04:15:36.608Z] info: MongoDB Connection (cached)
+[2025-03-20T04:16:09.421Z] info: MongoDB Connected
+[2025-03-20T04:16:09.584Z] info: MongoDB Connection (cached)
+[2025-03-20T04:16:10.001Z] info: MongoDB Connection (cached)
+[2025-03-20T04:18:04.411Z] info: MongoDB Connected
+[2025-03-20T04:18:04.573Z] info: MongoDB Connection (cached)
+[2025-03-20T04:18:05.000Z] info: MongoDB Connection (cached)
+[2025-03-20T04:19:00.924Z] info: MongoDB Connected
+[2025-03-20T04:19:01.090Z] info: MongoDB Connection (cached)
+[2025-03-20T04:19:01.483Z] info: MongoDB Connection (cached)
+[2025-03-20T04:19:08.152Z] info: MongoDB Connected
+[2025-03-20T04:19:08.333Z] info: MongoDB Connection (cached)
+[2025-03-20T04:19:08.787Z] info: MongoDB Connection (cached)
+[2025-03-20T04:19:20.054Z] info: MongoDB Connected
+[2025-03-20T04:19:20.606Z] info: MongoDB Connection (cached)
+[2025-03-20T04:19:21.112Z] info: MongoDB Connection (cached)
+[2025-03-20T04:19:45.207Z] info: MongoDB Connected
+[2025-03-20T04:19:45.381Z] info: MongoDB Connection (cached)
+[2025-03-20T04:19:45.798Z] info: MongoDB Connection (cached)
+[2025-03-20T04:19:53.471Z] info: MongoDB Connection (cached)
+[2025-03-20T04:19:53.484Z] info: MongoDB Connection (cached)
+[2025-03-20T04:19:54.783Z] info: MongoDB Connection (cached)
+[2025-03-20T04:20:26.500Z] info: MongoDB Connected
+[2025-03-20T04:20:39.528Z] info: MongoDB Connected
+[2025-03-20T04:20:50.755Z] info: MongoDB Connection (cached)
+[2025-03-20T04:21:20.154Z] info: MongoDB Connection (cached)
+[2025-03-20T04:21:20.861Z] info: MongoDB Connection (cached)
+[2025-03-20T04:21:21.478Z] info: MongoDB Connection (cached)
+[2025-03-20T04:22:30.754Z] info: MongoDB Connected
+[2025-03-20T04:22:30.935Z] info: MongoDB Connection (cached)
+[2025-03-20T04:22:31.371Z] info: MongoDB Connection (cached)
+[2025-03-20T04:22:39.568Z] info: MongoDB Connected
+[2025-03-20T04:22:57.981Z] info: MongoDB Connected
+[2025-03-20T04:22:58.436Z] info: MongoDB Connection (cached)
+[2025-03-20T04:22:58.825Z] info: MongoDB Connection (cached)
+[2025-03-20T04:23:35.539Z] info: MongoDB Connection (cached)
+[2025-03-20T04:23:35.707Z] info: MongoDB Connection (cached)
+[2025-03-20T04:23:36.108Z] info: MongoDB Connection (cached)
+[2025-03-20T04:23:49.244Z] info: MongoDB Connection (cached)
+[2025-03-20T04:23:52.014Z] info: MongoDB Connection (cached)
+[2025-03-20T04:24:36.726Z] info: MongoDB Connected
+[2025-03-20T04:24:36.896Z] info: MongoDB Connection (cached)
+[2025-03-20T04:24:37.289Z] info: MongoDB Connection (cached)
+[2025-03-20T04:25:31.898Z] info: MongoDB Connected
+[2025-03-20T04:25:32.094Z] info: MongoDB Connection (cached)
+[2025-03-20T04:25:32.478Z] info: MongoDB Connection (cached)
+[2025-03-20T04:26:00.912Z] info: MongoDB Connection (cached)
+[2025-03-20T04:26:01.080Z] info: MongoDB Connection (cached)
+[2025-03-20T04:26:01.466Z] info: MongoDB Connection (cached)
+[2025-03-20T04:26:03.615Z] info: MongoDB Connection (cached)
+[2025-03-20T04:26:07.023Z] info: MongoDB Connection (cached)
+[2025-03-20T04:26:10.465Z] info: MongoDB Connection (cached)
+[2025-03-20T04:27:33.091Z] info: MongoDB Connection (cached)
+[2025-03-20T04:27:33.951Z] info: MongoDB Connection (cached)
+[2025-03-20T04:27:34.290Z] info: MongoDB Connection (cached)
+[2025-03-20T04:27:35.077Z] info: MongoDB Connection (cached)
+[2025-03-20T04:27:46.693Z] info: MongoDB Connection (cached)
+[2025-03-20T04:39:44.755Z] info: MongoDB Connected
+[2025-03-20T04:39:45.147Z] info: MongoDB Connection (cached)
+[2025-03-20T04:39:45.516Z] info: MongoDB Connection (cached)
+[2025-03-20T04:39:46.936Z] info: MongoDB Connection (cached)
+[2025-03-20T04:40:24.089Z] info: MongoDB Connected
+[2025-03-20T04:40:24.259Z] info: MongoDB Connection (cached)
+[2025-03-20T04:40:24.804Z] info: MongoDB Connection (cached)
+[2025-03-20T04:42:35.590Z] info: MongoDB Connected
+[2025-03-20T04:42:35.753Z] info: MongoDB Connection (cached)
+[2025-03-20T04:42:36.523Z] info: MongoDB Connection (cached)
+[2025-03-20T04:42:36.702Z] info: MongoDB Connection (cached)
+[2025-03-20T04:42:36.873Z] info: MongoDB Connection (cached)
+[2025-03-20T04:42:37.398Z] info: MongoDB Connection (cached)
+[2025-03-20T04:44:28.280Z] info: MongoDB Connected
+[2025-03-20T04:44:28.583Z] info: MongoDB Connection (cached)
+[2025-03-20T04:44:28.780Z] info: MongoDB Connection (cached)
+[2025-03-20T04:44:30.488Z] info: MongoDB Connection (cached)
+[2025-03-20T04:44:33.454Z] info: MongoDB Connection (cached)
+[2025-03-20T04:44:36.012Z] info: MongoDB Connection (cached)
+[2025-03-20T04:44:40.257Z] info: MongoDB Connection (cached)
+[2025-03-20T04:44:48.524Z] info: MongoDB Connection (cached)
+[2025-03-20T04:44:52.717Z] info: MongoDB Connection (cached)

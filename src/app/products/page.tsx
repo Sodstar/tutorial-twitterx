@@ -8,32 +8,60 @@ import {
   CardTitle,
   CardDescription,
 } from "@/components/ui/card"; // Assuming you have shadcn components
-import { getCachedProducts } from "@/actions/product.action";
+import {
+  getCachedProducts,
+  getFilteredProducts,
+} from "@/actions/product.action";
 import toast from "react-hot-toast";
 import { IProduct } from "@/models/productMongo";
 import { ProductSkeleton } from "@/components/ProductSkeleton";
 import { Button } from "@/components/ui/button";
+import { useRouter, useSearchParams } from "next/navigation";
 // type Products = Awaited<ReturnType<typeof getCachedProducts>>;
+import { useCartStore } from "@/store/cartStore"; // Import Zustand store
 
 const page = () => {
   const [products, setProducts] = useState<IProduct[]>([]);
   const [isLoading, setIsLoading] = useState(true);
+  const router = useRouter();
+  const searchParams = useSearchParams();
+  const addToCart = useCartStore((state) => state.addToCart);
+  const { cart } = useCartStore();
+  const getFiltersFromURL = () => ({
+    category: searchParams.get("category") || [],
+    brand: searchParams.get("brand") || [],
+    minPrice: searchParams.get("minPrice") || "",
+    maxPrice: searchParams.get("maxPrice") || "",
+    orderBy: searchParams.get("sort") || "",
+  });
+
+  const [filters, setFilters] = useState(getFiltersFromURL());
+
+  useEffect(() => {
+    setFilters(getFiltersFromURL());
+  }, [searchParams]);
 
   useEffect(() => {
     const fetchNotifications = async () => {
       setIsLoading(true);
       try {
-        const data = await getCachedProducts(8);
-        setProducts(data);
+        const data = await getFilteredProducts(filters);
+        console.log(data);
+        if (typeof data === "string") {
+          setProducts(JSON.parse(data));
+          console.log(JSON.parse(data));
+        } else {
+          setProducts(data);
+        }
       } catch (error) {
-        toast.error("Failed to fetch notifications");
+        toast.error("Failed to fetch notifications" + error);
       } finally {
         setIsLoading(false);
       }
     };
 
     fetchNotifications();
-  }, []);
+  }, [filters]);
 
   if (isLoading) return <ProductSkeleton />;
   return (
@@ -61,20 +89,40 @@ const page = () => {
                 {product.description}
               </CardDescription>
               <div className="flex justify-between items-center w-full px-5 py-4">
-
-                <div><span className="text-lg font-bold">
-                  {product?.price || 'Үнэ бичигдээгүй байна'} ₮
-                </span></div>
-              <div>
-                {
-                  product?.stock>0 ? <> <Button>Сагсанд нэмэх</Button></>:<><Button variant={"outline"} disabled={true}>Дууссан</Button></> 
-                }
-               </div>
+                <div>
+                  <span className="text-lg font-bold">
+                    {product?.price || "Үнэ бичигдээгүй байна"} ₮
+                  </span>
+                </div>
+                <div>
+                  {product?.stock > 0 ? (
+                    <>
+                      <Button
+                        onClick={() => {
+                          addToCart({
+                            _id: product._id,
+                            title: product.title,
+                            price: product.price,
+                            quantity: product.stock,
+                            image: product.image,
+                          });
+                        }}
+                      >
+                        Сагсанд нэмэх
+                      </Button>
+                    </>
+                  ) : (
+                    <>
+                      <Button variant={"outline"} disabled={true}>
+                        Дууссан
+                      </Button>
+                    </>
+                  )}
+                </div>
               </div>
             </CardFooter>
           </Card>
         ))}
-        
       </div>
     </div>
   );

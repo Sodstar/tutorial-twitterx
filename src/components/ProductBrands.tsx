@@ -11,64 +11,63 @@ import {
 import Link from "next/link";
 import { usePathname, useSearchParams, useRouter } from "next/navigation";
 import { useState, useEffect } from 'react'
-import CategoryModel,{ICategory}  from "@/models/categoryMongo";
-import { getAllCategories, getCachedCategories } from "@/actions/category.action";
+import {IBrand}  from "@/models/brandMongo";
+import { getAllBrands } from "@/actions/brand.action";
 
 // const categories = ["electronics", "fashion", "books", "home"];
 
-export default function ProductCategories() {
+export default function ProductBrands() {
   const pathname = usePathname();
-
-  const [categories, setCategories]=useState<ICategory[]>([]);
+  const [brands, setBrands]=useState<IBrand[]>([]);
   
   useEffect(()=>{
-    const fetchCategories = async () => {
-      const res = await getCachedCategories(10);
-      setCategories(res);
+    const fetchBrands = async () => {
+      const res = await getAllBrands();
+      setBrands(res);
     };
-    fetchCategories();
+    fetchBrands();
   },[]);
 
   const searchParams = useSearchParams();
   const router = useRouter();
 
-  const handleCategoryChange = (category: string) => {
+  const handleBrandChange = (brand: string) => {
     const params = new URLSearchParams(searchParams.toString());
     console.log(typeof params)
-    if (category) {
-      params.set("category", category);
+    if (brand) {
+      params.set("brand", brand);
     } else {
-      params.delete("category");
+      params.delete("brand");
     }
     router.push(`/products?${params.toString()}`);
   };
 
-  if (!categories) return <div>Уншиж байна...</div>
+  if (!brands) return <div>Уншиж байна...</div>
 
   return (
     <>
       {pathname === "/products" ? (
         <div className="top-20 mt-4">
           <Card>
-            <CardHeader className="font-bold">Барааны ангилал</CardHeader>
+            <CardHeader className="font-bold">Барааны бренд</CardHeader>
             <CardContent className="">
               <div className="flex flex-col">
                 <ul className="space-y-2">
                   <li key={"all"}>
                     <button
                       className="hover:underline"
-                      onClick={() => handleCategoryChange("")}
+                      onClick={() => handleBrandChange("")}
                     >
                       Бүгд
                     </button>
                   </li>
-                  {categories.map((cat) => (
-                    <li key={cat.name}>
+                  {brands.map((brand) => (
+                    <li key={brand.name}>
                       <button
                         className="hover:underline"
-                        onClick={() => handleCategoryChange(cat.slug)}
+                        onClick={() => handleBrandChange(brand.slug)}
                       >
-                        {cat.name}
+                        {brand.name}
                       </button>
                     </li>
                   ))}

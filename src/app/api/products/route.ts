@@ -1,22 +1,23 @@
 import { NextResponse } from "next/server";
-import { getCachedProducts, createProduct } from "@/actions/product.action";
+import { getFilteredProducts } from "@/actions/product.action";
 
-export async function GET() {
+export async function GET(req: Request) {
   try {
-    const products = await getCachedProducts();
-    return NextResponse.json({ success: true, data: products }, { status: 200 });
-  } catch (error) {
-    return NextResponse.json({ success: false, error  }, { status: 500 });
-  }
-}
+    //URL query parameters are used to filter products
+    const { searchParams } = new URL(req.url);
+    const filters = {
+      categorySlug: searchParams.get("category"),
+      // brandSlug: searchParams.get("brand"),
+      minPrice: searchParams.get("minPrice"),
+      maxPrice: searchParams.get("maxPrice"),
+      orderBy: searchParams.get("orderBy"),
+    };
 
-export async function POST(req: Request) {
-  try {
-    const { name, price, description } = await req.json();
-    const newProduct = await createProduct(name, price, description);
+    const products = await getFilteredProducts(filters);
     
-    return NextResponse.json({ success: true, data: newProduct }, { status: 201 });
+    return NextResponse.json({ success: true, data: products }, { status: 200 });
+
   } catch (error) {
-    return NextResponse.json({ success: false, error }, { status: 400 });
+    return NextResponse.json({ success: false, error: error }, { status: 500 });
   }
 }

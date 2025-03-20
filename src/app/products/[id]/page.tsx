@@ -22,7 +22,7 @@ export async function generateMetadata({
   };
 }
 async function productDetailPage({ params }: { params: { id: number } }) {
-  
+   
     const product = await getProductById(params.id);
     // const [product] = await Promise.all([
     //   getProductById(params.id)
