@@ -35,10 +35,12 @@ const page = () => {
     orderBy: searchParams.get("sort") || "",
   });
 
+  
   const [filters, setFilters] = useState(getFiltersFromURL());
-
+  
   useEffect(() => {
     setFilters(getFiltersFromURL());
+    console.log(filters)
   }, [searchParams]);
 
   useEffect(() => {
