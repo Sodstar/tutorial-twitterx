@@ -10,39 +10,44 @@ import {
 } from "./ui/card";
 import Link from "next/link";
 import { usePathname, useSearchParams, useRouter } from "next/navigation";
-import { useState, useEffect } from 'react'
-import {IBrand}  from "@/models/brandMongo";
+import { useState, useEffect } from "react";
+import { IBrand } from "@/models/brandMongo";
 import { getAllBrands } from "@/actions/brand.action";
 
 // const categories = ["electronics", "fashion", "books", "home"];
 
 export default function ProductBrands() {
   const pathname = usePathname();
-  const [brands, setBrands]=useState<IBrand[]>([]);
-  
-  useEffect(()=>{
+  const [brands, setBrands] = useState<IBrand[]>([]);
+  const [selectedBrand, setSelectedBrand] = useState<string>("");
+
+  useEffect(() => {
+    const params = new URLSearchParams(searchParams.toString());
+
     const fetchBrands = async () => {
       const res = await getAllBrands();
       setBrands(res);
     };
     fetchBrands();
-  },[]);
+  }, []);
 
   const searchParams = useSearchParams();
   const router = useRouter();
 
   const handleBrandChange = (brand: string) => {
     const params = new URLSearchParams(searchParams.toString());
-    console.log(typeof params)
+    console.log(typeof params);
     if (brand) {
       params.set("brand", brand);
+      setSelectedBrand(brand);
     } else {
       params.delete("brand");
+      setSelectedBrand("");
     }
     router.push(`/products?${params.toString()}`);
   };
 
-  if (!brands) return <div>Уншиж байна...</div>
+  if (!brands) return <div>Уншиж байна...</div>;
 
   return (
     <>
@@ -64,7 +69,7 @@ export default function ProductBrands() {
                   {brands.map((brand) => (
                     <li key={brand.name}>
                       <button
-                        className="hover:underline"
+                        className={`hover:underline ${brand.slug===selectedBrand ? "text-blue-500": "" }`}
                         onClick={() => handleBrandChange(brand.slug)}
                       >
                         {brand.name}

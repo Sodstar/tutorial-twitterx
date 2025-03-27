@@ -12,7 +12,7 @@ export interface IProduct extends Document {
 }
 
 const ProductSchema = new Schema<IProduct>(
-    {
+{
         _id: { type: Number, required: true },
         title: { type: String, required: true, unique: true },
         description: { type: String, required: true },

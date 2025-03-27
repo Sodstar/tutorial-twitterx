@@ -2,16 +2,17 @@ import { getAllBooks, getBookById } from "@/actions/book.action";
 import { Card, CardContent, CardHeader } from "@/components/ui/card";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import React from "react";
+import React,{use} from "react";
 
 type BookType = Awaited<ReturnType<typeof getAllBooks>>;
 type BookOne = BookType[number];
 
 interface PageProps {
-  params: { id: String };
+  params: Promise<{ id: string }> ;
 }
-async function page({ params }: PageProps) {
-  const book = await getBookById(Number(params.id));
+async function page({ params }: { params: Promise<{ id: string }> })  {
+  const {id} = use(params);
+  const book = await getBookById(Number(id));
   if (!book) notFound();
   console.log(book);
   return (
