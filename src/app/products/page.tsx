@@ -78,10 +78,10 @@ const page = () => {
               <img
                 src={product.image || "https://via.placeholder.com/300"}
                 alt={product.title}
-                className="w-full h-52 object-cover rounded-t-lg"
+                className="w-full h-80 object-cover rounded-t-lg"
               />
             </CardContent>
-            <CardFooter className="flex flex-col p-4 space-y-2">
+            <CardFooter className="flex flex-col p-2 space-y-2">
               <a href={`products/${product._id}`}>
                 <CardTitle className="text-xl font-semibold text-gray-800 dark:text-gray-300">
                   {product.title}
